@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/bc228d23-3d27-44b8-82de-e65dc6186c3f>
+- !<AssetImportMetadata/d15a9c4d-fa40-49b5-b806-ac0d4e2f6096>
   ImportedAssetIds:
-    Scene: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
-  ImporterName: SceneImporter
-  PrimaryAsset: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+    Texture: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
+  ImporterName: DeviceCameraTextureImporter
+  PrimaryAsset: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

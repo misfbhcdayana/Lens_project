@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/96b0550f-fc8e-41d2-a617-366289c0088e>
+- !<AssetImportMetadata/47e8fe61-f6e0-42c4-a45b-c6805156fa2f>
   ImportedAssetIds:
-    BinAsset: !<reference> 8e918d75-cfeb-47a2-b598-75971f9c9818
-  ImporterName: BinAssetImporter
-  PrimaryAsset: !<reference> 8e918d75-cfeb-47a2-b598-75971f9c9818
+    FaceMesh: !<reference> 0f984b27-a8bf-4286-99ec-bc1fcc110e58
+  ImporterName: FaceMeshImporter
+  PrimaryAsset: !<reference> 0f984b27-a8bf-4286-99ec-bc1fcc110e58
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

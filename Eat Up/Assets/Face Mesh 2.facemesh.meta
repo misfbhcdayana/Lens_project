@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/bc228d23-3d27-44b8-82de-e65dc6186c3f>
+- !<AssetImportMetadata/5803c4e4-3168-4c18-98e8-318f44ac5da7>
   ImportedAssetIds:
-    Scene: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
-  ImporterName: SceneImporter
-  PrimaryAsset: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+    FaceMesh: !<reference> c341966d-07a5-41ce-a220-7c6f438efc42
+  ImporterName: FaceMeshImporter
+  PrimaryAsset: !<reference> c341966d-07a5-41ce-a220-7c6f438efc42
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

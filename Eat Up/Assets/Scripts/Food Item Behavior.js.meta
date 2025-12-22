@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/0723e5c0-57f9-4a29-a878-d3a8f583f56b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f3d97576-cd66-4b16-a448-ce6a4699c3f5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f3d97576-cd66-4b16-a448-ce6a4699c3f5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ea0558e4-4bc6-41c4-bb21-18f3aa0e8722
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ea0558e4-4bc6-41c4-bb21-18f3aa0e8722>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c7819135-679a-4b56-b6bb-072fb2a6eec0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    foodPool: false
+    lifeTime: false
+    spawnInterval: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - foodPool: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnInterval: 1.500000
+      lifeTime: !<float> 3.000000
+  ScriptTypes:
+    -
+      {}

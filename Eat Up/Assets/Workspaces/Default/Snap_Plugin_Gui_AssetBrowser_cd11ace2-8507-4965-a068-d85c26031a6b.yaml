@@ -1,0 +1,13 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 7
+    values:
+      - Base.png
+      - Echopark.hdr
+      - Face Mesh.facemesh
+      - Face Mesh.mat
+      - FaceMeshTexture.jpg
+      - Scripts/Face.js
+      - face_mesh.ss_graph
+  options: 4

@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/bc228d23-3d27-44b8-82de-e65dc6186c3f>
+- !<AssetImportMetadata/d0442e0d-07af-9f22-0a37-8d094783cd8a>
   ImportedAssetIds:
-    Scene: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
-  ImporterName: SceneImporter
-  PrimaryAsset: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+    ShaderGraph: !<reference> 78fbb31a-0f51-4c2f-82ee-9e8a359e8a38
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 78fbb31a-0f51-4c2f-82ee-9e8a359e8a38
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

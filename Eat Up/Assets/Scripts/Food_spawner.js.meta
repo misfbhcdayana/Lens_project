@@ -26,8 +26,11 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    eatDistance: false
+    faceStretch: false
     fallSpeed: false
     fastFoodPrefabs: false
+    headBinding: false
     spawnInterval: false
     veggiePrefabs: false
   ScriptTypesHidden:
@@ -45,6 +48,9 @@
         []
       spawnInterval: 1.500000
       fallSpeed: !<float> 10.000000
+      headBinding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      faceStretch: !<reference.FaceStretchVisual> 00000000-0000-0000-0000-000000000000
+      eatDistance: !<float> 2.000000
   ScriptTypes:
     -
       {}

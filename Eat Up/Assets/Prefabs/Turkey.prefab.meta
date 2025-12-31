@@ -1,0 +1,160 @@
+- !<AssetImportMetadata/e4b1e367-7595-4e9f-a84f-856bb6690dbd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6eb948e5-8ba8-4b91-b818-a1f747f6427b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6eb948e5-8ba8-4b91-b818-a1f747f6427b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 0b21f363-7e61-423f-8147-0191d855f845
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/0b21f363-7e61-423f-8147-0191d855f845>
+  Prototype: !<ObjectOwner/47522729-4927-49c3-90c3-ba2f29940337>
+    PackagePath: ""
+    objects:
+      - !<own> 5306356b-6488-4e59-7449-21e4525cc9a8
+- !<RenderMeshVisual/0d76c8d2-a2c6-4e4b-5d60-8aa63e979a6b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2fed11ad-6e0e-4404-827d-ec464c34ba3f
+  Mesh: !<reference> 41c54348-a069-42cb-8384-8072f5d174d5
+  Skin: !<reference> c08f7f26-ac13-49d9-4e11-5426dd96fecf
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1cc6f370-7c50-435e-73b3-68b5ee872c03>
+  PrefabRemaps:
+    []
+  Name: C_turkey_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/5306356b-6488-4e59-7449-21e4525cc9a8>
+  PrefabRemaps:
+    []
+  Name: Turkey
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.671369, y: -29.369738, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.196993, y: 0.196993, z: 0.196993}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c8a2a2b6-463c-427e-523c-6bcbf69c2759
+  Components:
+    - !<own> c08f7f26-ac13-49d9-4e11-5426dd96fecf
+- !<SceneObject/6852659a-61d7-4891-6a2f-1e063d46fd69>
+  PrefabRemaps:
+    []
+  Name: C_turkey_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0d76c8d2-a2c6-4e4b-5d60-8aa63e979a6b
+- !<SceneObject/72bb6f2a-c952-4854-7ea4-168e7c994cca>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 72d55332-3b8e-4c66-6bc5-848a5bd2e98d
+  Components:
+    []
+- !<SceneObject/72d55332-3b8e-4c66-6bc5-848a5bd2e98d>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1cc6f370-7c50-435e-73b3-68b5ee872c03
+  Components:
+    []
+- !<Skin/c08f7f26-ac13-49d9-4e11-5426dd96fecf>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_turkey_GEO: !<reference> 6852659a-61d7-4891-6a2f-1e063d46fd69
+    C_turkey_bind_JNT: !<reference> 1cc6f370-7c50-435e-73b3-68b5ee872c03
+    PROP: !<reference> c8a2a2b6-463c-427e-523c-6bcbf69c2759
+    bind_GRP: !<reference> 72d55332-3b8e-4c66-6bc5-848a5bd2e98d
+    geo_GRP: !<reference> c27f60ee-8c20-4814-71b3-cd9bd08c2302
+    rig_GRP: !<reference> 72bb6f2a-c952-4854-7ea4-168e7c994cca
+    turkey_bindrig: !<reference> 5306356b-6488-4e59-7449-21e4525cc9a8
+- !<SceneObject/c27f60ee-8c20-4814-71b3-cd9bd08c2302>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6852659a-61d7-4891-6a2f-1e063d46fd69
+  Components:
+    []
+- !<SceneObject/c8a2a2b6-463c-427e-523c-6bcbf69c2759>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c27f60ee-8c20-4814-71b3-cd9bd08c2302
+    - !<own> 72bb6f2a-c952-4854-7ea4-168e7c994cca
+  Components:
+    []

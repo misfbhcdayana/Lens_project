@@ -1,0 +1,176 @@
+- !<AssetImportMetadata/e180785f-1a63-4b21-84d3-81b2d81da888>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 041e6fae-792f-4180-a07b-4af423d13223
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 041e6fae-792f-4180-a07b-4af423d13223
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ca2d0681-83df-4007-8140-8d829baa8acf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0465dd96-427c-428c-529a-5517d1be0f41>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8587f805-e527-457c-41c0-281537879849
+  Components:
+    []
+- !<Skin/1b104406-4931-460d-7e5b-be85fcc29881>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_cerealBox_bind_JNT: !<reference> ed909d64-9669-4a09-4693-c0fe409838c8
+    C_cereal_box_GEO: !<reference> 978cd2b6-5bef-418f-53e4-8c4d4b5a93a8
+    PROP: !<reference> 4931ca82-3cac-4702-7ea9-136dc71ea4a9
+    bind_GRP: !<reference> 8587f805-e527-457c-41c0-281537879849
+    cereal_box_GRP: !<reference> 29a6438a-7432-4af3-5cb5-af78bed86d3c
+    cereal_box_bindrig: !<reference> 9128e70f-5004-44cc-7f35-e87536e88979
+    geo_GRP: !<reference> 9e7e8d82-44b9-4d5d-4641-0261e9ddc4ba
+    rig_GRP: !<reference> 0465dd96-427c-428c-529a-5517d1be0f41
+- !<SceneObject/29a6438a-7432-4af3-5cb5-af78bed86d3c>
+  PrefabRemaps:
+    []
+  Name: cereal_box_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 978cd2b6-5bef-418f-53e4-8c4d4b5a93a8
+  Components:
+    []
+- !<SceneObject/4931ca82-3cac-4702-7ea9-136dc71ea4a9>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9e7e8d82-44b9-4d5d-4641-0261e9ddc4ba
+    - !<own> 0465dd96-427c-428c-529a-5517d1be0f41
+  Components:
+    []
+- !<SceneObject/8587f805-e527-457c-41c0-281537879849>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ed909d64-9669-4a09-4693-c0fe409838c8
+  Components:
+    []
+- !<SceneObject/9128e70f-5004-44cc-7f35-e87536e88979>
+  PrefabRemaps:
+    []
+  Name: Cereal
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 4.233741, y: 9.502247, z: 0.000000}
+    Rotation: {x: -3.398549, y: -24.555428, z: 10.245141}
+    Scale: {x: 0.203606, y: 0.203606, z: 0.203606}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4931ca82-3cac-4702-7ea9-136dc71ea4a9
+  Components:
+    - !<own> 1b104406-4931-460d-7e5b-be85fcc29881
+- !<SceneObject/978cd2b6-5bef-418f-53e4-8c4d4b5a93a8>
+  PrefabRemaps:
+    []
+  Name: C_cereal_box_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7b56e2c-dead-4af0-7fde-ae56d89c3748
+- !<SceneObject/9e7e8d82-44b9-4d5d-4641-0261e9ddc4ba>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 29a6438a-7432-4af3-5cb5-af78bed86d3c
+  Components:
+    []
+- !<RenderMeshVisual/b7b56e2c-dead-4af0-7fde-ae56d89c3748>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6fa61f84-9004-4d49-ac8d-c0590129ee57
+  Mesh: !<reference> cc2d135d-2d3e-44cc-9d11-e5b4cde32719
+  Skin: !<reference> 1b104406-4931-460d-7e5b-be85fcc29881
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/ca2d0681-83df-4007-8140-8d829baa8acf>
+  Prototype: !<ObjectOwner/661586eb-a044-4316-a8e4-13a70b54102c>
+    PackagePath: ""
+    objects:
+      - !<own> 9128e70f-5004-44cc-7f35-e87536e88979
+- !<SceneObject/ed909d64-9669-4a09-4693-c0fe409838c8>
+  PrefabRemaps:
+    []
+  Name: C_cerealBox_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

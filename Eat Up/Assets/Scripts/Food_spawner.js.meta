@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/82928426-edf0-4570-a4bf-bbdf77786417>
+- !<AssetImportMetadata/90b139bb-9889-4fbc-a6af-d10f02529c74>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> de5053ec-2e02-4e43-bf8c-01d00cc293df
+    JavaScriptAsset: !<reference> 2084a8a9-b16d-4843-91ed-d158c3fb04bc
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> de5053ec-2e02-4e43-bf8c-01d00cc293df
+  PrimaryAsset: !<reference> 2084a8a9-b16d-4843-91ed-d158c3fb04bc
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     {}
   AssetDataMap:
-    JavaScriptAsset: !<own> 1a8df6d6-cb93-48ae-89d6-bd76f8ab14af
+    JavaScriptAsset: !<own> 4b85447d-f42f-48cb-b855-7eca13bde084
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/1a8df6d6-cb93-48ae-89d6-bd76f8ab14af>
+- !<ScriptAssetData/4b85447d-f42f-48cb-b855-7eca13bde084>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,11 +22,14 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: f4c4ae3d-e817-47c0-a144-c2b354ffdfd7
+  ComponentUid: 9b1eb2fa-1479-47b9-a415-03cda6590267
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    faceMesh: false
+    fallSpeed: false
+    fastFoodPrefabs: false
+    spawnInterval: false
+    veggiePrefabs: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -36,7 +39,12 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - faceMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+    - veggiePrefabs: !<reference.ObjectPrefab[]>
+        []
+      fastFoodPrefabs: !<reference.ObjectPrefab[]>
+        []
+      spawnInterval: 1.500000
+      fallSpeed: !<float> 10.000000
   ScriptTypes:
     -
       {}

@@ -1,12 +1,16 @@
 - !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
   PackagePath: ""
   objects:
+    - !<own> 9888b643-aa87-49bd-bacd-3bacea0ac505
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> ac6dc090-d44b-4870-8fe2-db4a146ee14b
     - !<own> ac5b96a7-cab2-4acd-8d45-131321fec474
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 617193a2-e30f-486e-830f-8aeb166fec58
     - !<own> 35f60bb9-bc26-4536-a8d4-41b6607d926a
+    - !<own> 77f01774-610d-4ca7-87a1-aad5fb4ef6d6
+    - !<own> bb2fbb74-a449-4b07-9621-cabcb9db58b5
+    - !<own> 957515d0-5efa-45b2-8358-c79965ec88e6
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -619,6 +623,43 @@
     - !<own> 676fb6d3-6a9b-45f8-b58e-8506c7e9985d
   Components:
     []
+- !<ScriptComponent/1782e434-d0f3-42e3-a0e9-a80cc2659a31>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    type: true
+    movementType: true
+    from: true
+    delay: true
+    isLocal: true
+    easingFunction: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 8907d1a7-c49f-4412-ad2c-22e1e92a82c5
+      tweenName: moveFood
+      playAutomatically: false
+      loopType: 1
+      type: 0
+      movementType: 0
+      startInput: !<Vec3> {x: 0.000000, y: 20.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: -20.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 5.000000, y: 5.000000, z: 5.000000}
+      offset: !<Vec3> {x: 4.000000, y: -10.000000, z: -5.000000}
+      additive: true
+      time: !<float> 3.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Quadratic
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/18a2b926-d450-4939-87f9-5d0c966e5521>
   PrefabRemaps:
     []
@@ -1099,6 +1140,18 @@
     - !<own> 42859071-92df-40b2-ae8f-b48c5b32df3c
   Components:
     []
+- !<Canvas/2abe8dd2-3de4-42a6-beb5-62773f9bd2a6>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: Points
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
 - !<SceneObject/2adc012e-4ce3-4c46-8682-9e78eee6d97c>
   PrefabRemaps:
     []
@@ -1702,7 +1755,7 @@
     - ff77e607-82e1-4d81-be3a-9e35b69da0be: 3ea78c14-6add-470f-76c8-df3f6efee2a6
     - fff9441d-c081-4493-9279-fc8d59610516: 9d7ed0d4-6056-43e2-4c80-aa125cfa7b00
   Name: BitmojiFood__PLACE_IN_SCENE
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2019,9 +2072,7 @@
   Enabled: true
   ScriptAsset: !<reference> a92b8e3e-690d-4b45-b744-161ceabc0ffc
   ScriptInputsDefault:
-    touchEventEventType: true
     touchEventTouchTarget: true
-    faceEventEventType: true
     faceEventFaceIndex: true
     onEnabledObject: true
     onDisabledObject: true
@@ -2035,11 +2086,7 @@
     animationEndAnimClipName: true
     tweenEndTargetObject: true
     tweenEndTweenName: true
-    lookingAtLookingObject: true
-    lookingAtLookTarget: true
     lookingAtFlipForwardVec: true
-    lookingAtCompareType: true
-    lookingAtAngle: true
     lookingAtAllowRepeat: true
     boundsCheckObject: true
     boundsCheckBoundaryMeshVisual: true
@@ -2098,7 +2145,6 @@
     triggerLimitType: true
     triggerInterval: true
     triggerDelay: true
-    responseType: true
     animateImageAnimatedTexture: true
     animateImageVisualObject: true
     animateImageAction: true
@@ -2139,8 +2185,6 @@
     setTextTextComponent: true
     setTextText3DComponent: true
     setTextText: true
-    runTweenTargetObject: true
-    runTweenTweenName: true
     runTweenAction: true
     setPositionObjectToMove: true
     setPositionPosition: true
@@ -2199,9 +2243,6 @@
     runMLRecurring: true
     runMLStartTiming: true
     runMLEndTiming: true
-    instantiatePrefabPrefab: true
-    instantiatePrefabParent: true
-    destroyObjectObject: true
     printMessageText: true
     callScriptAPITargetType: true
     callScriptAPISceneObject: true
@@ -2325,9 +2366,9 @@
   ScriptInputs:
     "":
       triggeringEventType: FaceEvent
-      touchEventEventType: TapEvent
+      touchEventEventType: TouchMoveEvent
       touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
-      faceEventEventType: MouthOpenedEvent
+      faceEventEventType: BrowsRaisedEvent
       faceEventFaceIndex: 0
       onEnabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       onDisabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -2342,11 +2383,11 @@
       animationEndAnimClipName: ""
       tweenEndTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       tweenEndTweenName: ""
-      lookingAtLookingObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      lookingAtLookTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtLookingObject: !<reference.SceneObject> cc35f2ec-c5eb-4568-8123-8489c7ec5da8
+      lookingAtLookTarget: !<reference.SceneObject> 617193a2-e30f-486e-830f-8aeb166fec58
       lookingAtFlipForwardVec: true
-      lookingAtCompareType: -1
-      lookingAtAngle: !<float> 10.000000
+      lookingAtCompareType: 0
+      lookingAtAngle: !<float> 2.000000
       lookingAtAllowRepeat: false
       boundsCheckObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       boundsCheckBoundaryMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
@@ -2410,7 +2451,7 @@
       triggerLimitType: Always
       triggerInterval: !<float> 1.000000
       triggerDelay: !<float> 0.000000
-      responseType: None
+      responseType: runTween
       animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
       animateImageAction: Play or Resume
@@ -2451,8 +2492,8 @@
       setTextTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
       setTextText3DComponent: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
       setTextText: ""
-      runTweenTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      runTweenTweenName: ""
+      runTweenTargetObject: !<reference.SceneObject> 8907d1a7-c49f-4412-ad2c-22e1e92a82c5
+      runTweenTweenName: moveFood
       runTweenAction: Start
       setPositionObjectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       setPositionPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2511,9 +2552,9 @@
       runMLRecurring: false
       runMLStartTiming: 2
       runMLEndTiming: 4
-      instantiatePrefabPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      instantiatePrefabParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      destroyObjectObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      instantiatePrefabPrefab: !<reference.ObjectPrefab> 88c45a0f-be7d-42e6-8fd8-c8a9bc5b059a
+      instantiatePrefabParent: !<reference.SceneObject> ac5b96a7-cab2-4acd-8d45-131321fec474
+      destroyObjectObject: !<reference.SceneObject> 617193a2-e30f-486e-830f-8aeb166fec58
       printMessageText: ""
       callScriptAPITargetType: Component
       callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -2903,7 +2944,7 @@
   PrefabRemaps:
     []
   Name: Physics
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -3165,6 +3206,37 @@
     []
   Components:
     []
+- !<Camera/5ac7e68d-e1a1-4e63-9131-82043607b1f6>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 1048576
+  MipmapLevel: 0
+  RenderOrder: 1
+  Size: 20.000000
+  Near: -1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<RenderMeshVisual/5b5bbe9b-2d4d-41ef-9b13-7f0f0ed1e2ea>
   PrefabRemaps:
     []
@@ -3328,7 +3400,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Position: {x: 0.000000, y: 0.000000, z: 2.279537}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
     HasSegmentScaleCompensation: false
@@ -3975,6 +4047,22 @@
     - !<own> 18a2b926-d450-4939-87f9-5d0c966e5521
   Components:
     []
+- !<SceneObject/77f01774-610d-4ca7-87a1-aad5fb4ef6d6>
+  PrefabRemaps:
+    []
+  Name: Orthographic Camera
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: -120.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5ac7e68d-e1a1-4e63-9131-82043607b1f6
+    - !<own> 2abe8dd2-3de4-42a6-beb5-62773f9bd2a6
 - !<SceneObject/784c4dcc-6962-47ef-ad57-d45ce056ecfd>
   PrefabRemaps:
     []
@@ -4005,6 +4093,26 @@
     - !<own> 959f321e-9cae-4800-9010-595ab4ec7dfd
   Components:
     []
+- !<RenderMeshVisual/7a281e91-e33d-411e-a94e-3fa8388b35f4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ac709ce8-cce5-4346-bb76-946e9ace0598
+  Mesh: !<reference> a91cc726-c57e-447a-affc-bec2e86c130a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/7b3d5070-14d9-4791-b42a-c18214f3a6f9>
   PrefabRemaps:
     []
@@ -4277,7 +4385,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -1.451326, y: 11.542111, z: 15.050774}
+    Position: {x: -1.451326, y: 5.123831, z: 17.492970}
     Rotation: {x: 25.667803, y: -0.000000, z: 0.000000}
     Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
     HasSegmentScaleCompensation: false
@@ -4287,6 +4395,23 @@
     - !<own> 774aee0e-77d8-462a-a39c-ca304403c701
     - !<own> 0b059648-236b-4694-84e7-6a32cf1c1832
     - !<own> 9d232f2a-239e-43ec-8d33-3540ef08291b
+    - !<own> 1782e434-d0f3-42e3-a0e9-a80cc2659a31
+- !<ScriptComponent/892a0f68-9734-4dfd-9394-659e2bcf1f46>
+  PrefabRemaps:
+    []
+  Name: Tween
+  Enabled: true
+  ScriptAsset: !<reference> b890d103-7edb-4a9f-9148-b02194fe87d3
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<Skin/89a61148-b546-4744-ad5f-42bb7d5c0a62>
   PrefabRemaps:
     []
@@ -4592,6 +4717,21 @@
     - !<own> 1c4a018c-d088-400d-9391-228c5d850bdf
   Components:
     []
+- !<SceneObject/957515d0-5efa-45b2-8358-c79965ec88e6>
+  PrefabRemaps:
+    []
+  Name: FoodSpawner
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/959f321e-9cae-4800-9010-595ab4ec7dfd>
   PrefabRemaps:
     []
@@ -4638,6 +4778,55 @@
     - !<own> 4e117f19-cecd-43fb-bc68-2513a927f600
   Components:
     - !<own> 89a61148-b546-4744-ad5f-42bb7d5c0a62
+- !<SceneObject/9888b643-aa87-49bd-bacd-3bacea0ac505>
+  PrefabRemaps:
+    - 0f2dddf9-7348-4532-8bf6-55efeb2a468e: f3796999-b997-4f70-6d99-2a48fd68a43d
+    - 15a4039f-16ea-4f78-a4e7-15d576408dfb: 9d99aa74-a785-4214-5102-3c33c192fa6a
+    - 18a68e13-5f1c-46d0-bf3d-d01be9a3897a: f43ae4b8-e228-43f9-45a9-2bc54eb9db88
+    - 195d186a-ce98-40bf-9e67-d9cd8d5e95f0: 43087e8d-51ef-4461-585c-846c0b5e3a78
+    - 1d6321e4-ed44-414e-a053-ace9cdf3e93b: dcf90f4f-8ed5-4139-6d0b-239cb40f4c80
+    - 1ea086a2-6c49-4b90-a501-df02c39f57ff: 306e3a39-88cb-47a8-6cfd-976a9153d932
+    - 2bce28a6-f22e-4892-ae30-ca2adaf96979: 807640a5-daec-4647-50d6-72ef2c60a393
+    - 34b567fb-97b5-4cc5-ab77-7105edef6cf8: 82cbad5b-18b3-4d44-4802-5c6e75f29f01
+    - 4483cc29-9fe1-4d1a-b858-b7821bcd130e: f725d139-bb90-4653-4e9f-778cb0ebc054
+    - 48111757-8130-4a59-bad1-91fac27aa514: a0ec559c-e656-480b-5ed3-9f27c2b5804a
+    - 65833d5e-edda-41a3-ad95-c3a92985b5c7: 6d9648d0-5ddb-4361-7915-5f0cef1599c6
+    - 65bf0ef8-14d0-4680-b1f8-9b19259e5f78: 7a0b4f71-1588-4a1b-62db-0f89e6a55a3e
+    - 67ece80d-3bbd-4922-a368-92b63adffb6b: d8168b7b-a8be-44c4-7cbe-385f6d6a664f
+    - 7b3a94fa-1a10-4b1c-be89-8beff4e5c907: 1a92e6c5-8a91-4867-4d42-d68252923ec6
+    - 892a0f68-9734-4dfd-9394-659e2bcf1f46: 4f165269-7ce8-4c48-420d-c77263bf5063
+    - 94e5402d-4480-4118-bea7-182d9ae7980e: 72c211ab-c99b-492c-43d4-0c9cd9570610
+    - 9888b643-aa87-49bd-bacd-3bacea0ac505: 9c217681-642a-4f90-6c97-500f742c68b0
+    - a13e6d9d-730f-4118-81ba-210ca35211f9: b4002e44-7fc7-4ac5-7f8c-0be191ec99fa
+    - ac7062ca-975d-4982-9f22-82b4c736e080: ea366518-e316-442a-48fd-713fc8744e66
+    - c169b8d4-52e1-46b7-b88f-d4d1bf396d20: 0a811e80-063d-4afc-6882-73aa8918ffae
+    - c1d92e36-a14d-4b32-8951-15fea5d2a520: 8019bebb-e2ed-44e2-76c1-bfad9ed1b75a
+    - ca343491-82ae-4462-9237-4b3864848f2c: f42fdae8-2aa6-4933-4025-e163a15a29a8
+    - ca8d450c-cd1f-4493-b678-f523cfb10a53: d85c9f9a-5a50-4d7d-4807-459552ea7041
+    - d65a5832-954d-49c4-83d1-7ce46f29492e: 432265ab-d078-4357-7b9b-0a1417073a58
+    - d81b1e7e-5c92-4b21-976a-a980f5138936: 76af071a-1214-4a94-71f4-d8827d494a56
+    - e03654c3-c9c8-4a7a-a7a3-0014c354f403: 7bb5e644-5aea-43f4-4c12-b425b10225f0
+    - e288a0ad-c514-4793-b6c4-d65973328e94: f775a876-268a-4ec4-7f23-270aa4c16f07
+    - e2acaaa3-8178-4b68-8f80-5d6793d220ac: c566b048-8ba0-4952-717e-372b3e6e025a
+    - e2d3da3d-9847-4147-9330-12d81c66cd65: afa853ee-928e-411c-48b9-338518893deb
+    - eb50443c-54db-4dc8-99e1-42ff5ff73379: e05a3dfa-2dfd-476b-584c-040482ecdf61
+    - ed827418-ec1f-48e6-8953-e089e4f57157: e6f12773-45e8-4eb6-7680-1ed9aa195f9c
+    - f0a0a770-fa06-4ade-a56f-de1c410c9f33: 3f00bd05-446e-4a09-5db2-fd34019991c2
+    - f1d69992-bc19-4168-9bc2-2f33cd6bbfb3: e92e4179-5c9d-4002-56f6-38d3c20715eb
+    - fdf88f26-2cc1-4eaa-91e4-50143c97d2b7: 7c862f6b-bfe1-48d6-7cce-ff4428b4c90b
+  Name: TweenManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 892a0f68-9734-4dfd-9394-659e2bcf1f46
+    - !<own> ca343491-82ae-4462-9237-4b3864848f2c
 - !<SceneObject/998a3225-9ce4-4b33-8cef-cefc15da9ef9>
   PrefabRemaps:
     []
@@ -5033,7 +5222,7 @@
   PrefabRemaps:
     []
   Name: Food Pool
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5352,6 +5541,21 @@
     - !<own> e27b38fd-fc31-46bc-8ae2-411fe6642234
   Components:
     []
+- !<SceneObject/bb2fbb74-a449-4b07-9621-cabcb9db58b5>
+  PrefabRemaps:
+    []
+  Name: FoodPrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.500347, y: -0.201014, z: 7.164272}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.855327, y: 4.306685, z: 5.113284}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7a281e91-e33d-411e-a94e-3fa8388b35f4
 - !<RenderMeshVisual/bb4f1fd0-99a1-46e6-aaac-0677adc62fd8>
   PrefabRemaps:
     []
@@ -6934,7 +7138,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -7.273656, y: 17.315956, z: 12.659168}
+    Position: {x: -7.273656, y: 4.640359, z: 17.684126}
     Rotation: {x: 25.667803, y: -0.000000, z: 0.000000}
     Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
     HasSegmentScaleCompensation: false
@@ -7740,6 +7944,22 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/ca343491-82ae-4462-9237-4b3864848f2c>
+  PrefabRemaps:
+    []
+  Name: TweenManager
+  Enabled: true
+  ScriptAsset: !<reference> cf0643d7-cc70-42b0-8cb7-7f9c81a20122
+  ScriptInputsDefault:
+    printDebugLog: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      printDebugLog: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/cabd7c60-cd0a-4fb0-a07e-8b57c1dcca48>
   PrefabRemaps:
     []

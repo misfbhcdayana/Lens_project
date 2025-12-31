@@ -1,0 +1,230 @@
+- !<AssetImportMetadata/adda0c89-68ba-43d5-b34c-21fb0f2d8350>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 40521ce3-adaf-4633-a60d-41fff63a70a3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 40521ce3-adaf-4633-a60d-41fff63a70a3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 52f46066-14bd-450d-a376-20ea814789af
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2cfb85dd-b9c2-4f59-662a-16eb14c38c59>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d90f5cf-a387-456d-6eb0-87a3326f28a4
+    - !<own> 785508d3-f55c-4a1f-43be-73c324c5686b
+  Components:
+    []
+- !<SceneObject/31e8a6c1-77a3-45b4-6ed4-c749ac19d4ef>
+  PrefabRemaps:
+    []
+  Name: C_chocolate_syrup_cap_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 67dbe2dc-0e40-4229-758e-1c728b2fae83
+- !<ObjectPrefabAssetData/52f46066-14bd-450d-a376-20ea814789af>
+  Prototype: !<ObjectOwner/4129e619-4d2d-4c18-a5c9-34a380e035d5>
+    PackagePath: ""
+    objects:
+      - !<own> b57748bc-0fd0-4c96-6042-d2b8c9617e94
+- !<RenderMeshVisual/67dbe2dc-0e40-4229-758e-1c728b2fae83>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 480fe645-95e9-479a-a5cd-b9888dd86ea5
+  Mesh: !<reference> a6876691-49c2-45c9-9bb3-53c117f4b77a
+  Skin: !<reference> a43f967e-d551-4822-60d2-19af0ceae8ea
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/785508d3-f55c-4a1f-43be-73c324c5686b>
+  PrefabRemaps:
+    []
+  Name: C_syrupCap_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 24.091179, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7df1a838-a046-4f6b-7e86-2b18540c9f82>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> daf932c7-3cda-404e-7af9-36f17e2abaa1
+    - !<own> f8f08c84-da7e-4d41-6b34-5c842a5664f5
+  Components:
+    []
+- !<SceneObject/8f6bc218-281c-44b7-4575-6dad0ecb6ceb>
+  PrefabRemaps:
+    []
+  Name: chocolate_syrup_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 31e8a6c1-77a3-45b4-6ed4-c749ac19d4ef
+    - !<own> b197de2c-5650-4036-7cfc-ddd54b1ade3f
+  Components:
+    []
+- !<SceneObject/9d90f5cf-a387-456d-6eb0-87a3326f28a4>
+  PrefabRemaps:
+    []
+  Name: C_chocolateSyrup_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/a43f967e-d551-4822-60d2-19af0ceae8ea>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_chocolateSyrup_bind_JNT: !<reference> 9d90f5cf-a387-456d-6eb0-87a3326f28a4
+    C_chocolate_syrup_GEO: !<reference> b197de2c-5650-4036-7cfc-ddd54b1ade3f
+    C_chocolate_syrup_cap_GEO: !<reference> 31e8a6c1-77a3-45b4-6ed4-c749ac19d4ef
+    C_syrupCap_bind_JNT: !<reference> 785508d3-f55c-4a1f-43be-73c324c5686b
+    PROP: !<reference> 7df1a838-a046-4f6b-7e86-2b18540c9f82
+    bind_GRP: !<reference> 2cfb85dd-b9c2-4f59-662a-16eb14c38c59
+    chocolate_syrup_GRP: !<reference> 8f6bc218-281c-44b7-4575-6dad0ecb6ceb
+    chocolate_syrup_bindrig: !<reference> b57748bc-0fd0-4c96-6042-d2b8c9617e94
+    geo_GRP: !<reference> daf932c7-3cda-404e-7af9-36f17e2abaa1
+    rig_GRP: !<reference> f8f08c84-da7e-4d41-6b34-5c842a5664f5
+- !<SceneObject/b197de2c-5650-4036-7cfc-ddd54b1ade3f>
+  PrefabRemaps:
+    []
+  Name: C_chocolate_syrup_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff1c184e-d92a-4989-7095-254624098362
+- !<SceneObject/b57748bc-0fd0-4c96-6042-d2b8c9617e94>
+  PrefabRemaps:
+    []
+  Name: Chocolate_syrup
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 15.000000, y: -1.577126, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.273307, y: 0.273307, z: 0.273307}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7df1a838-a046-4f6b-7e86-2b18540c9f82
+  Components:
+    - !<own> a43f967e-d551-4822-60d2-19af0ceae8ea
+- !<SceneObject/daf932c7-3cda-404e-7af9-36f17e2abaa1>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f6bc218-281c-44b7-4575-6dad0ecb6ceb
+  Components:
+    []
+- !<SceneObject/f8f08c84-da7e-4d41-6b34-5c842a5664f5>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2cfb85dd-b9c2-4f59-662a-16eb14c38c59
+  Components:
+    []
+- !<RenderMeshVisual/ff1c184e-d92a-4989-7095-254624098362>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 480fe645-95e9-479a-a5cd-b9888dd86ea5
+  Mesh: !<reference> 3c34e309-bccc-424b-b687-6369ffe5481a
+  Skin: !<reference> a43f967e-d551-4822-60d2-19af0ceae8ea
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

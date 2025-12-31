@@ -1,0 +1,229 @@
+- !<AssetImportMetadata/fbfbcdf7-48b7-40c7-9057-0cf28f0dc66a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e8260b1e-ecb1-4a63-9caf-71cbd5cf2da6
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e8260b1e-ecb1-4a63-9caf-71cbd5cf2da6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> d16745ce-1fc0-48ff-b14d-f012bad415ac
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0644dda9-3c3b-4408-40e9-e7ee6c9b3fd9>
+  PrefabRemaps:
+    []
+  Name: hotSauce001_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 972fa1e0-3936-4879-44b2-31135c42c1c5
+  Components:
+    []
+- !<RenderMeshVisual/2d5b1ac8-48b7-4450-5cd6-d88c80f7c103>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c57a3059-1da2-4129-9156-3f926061517d
+  Mesh: !<reference> b7b312bf-1b81-454a-92d2-d140842614a0
+  Skin: !<reference> b64973ad-7a8e-4c50-66a3-82d771a4d04d
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3932d8ab-0539-4f6f-7d15-490752c28048>
+  PrefabRemaps:
+    []
+  Name: C_cap_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 980ca487-2fb2-453f-73e0-a8c726d58d3d
+- !<SceneObject/59ed4652-eb5b-444f-58cd-740259b70a90>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a41b4329-fb75-434c-7c4d-c90a4b12f4fb
+  Components:
+    []
+- !<SceneObject/6a090dbb-f642-45fd-4eb9-2db45f89438e>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0644dda9-3c3b-4408-40e9-e7ee6c9b3fd9
+  Components:
+    []
+- !<SceneObject/77c8dcfb-8a55-463c-516c-a5695b5c1944>
+  PrefabRemaps:
+    []
+  Name: Hot_sauce
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -6.005543, y: -0.655035, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.300015, y: 0.300015, z: 0.300015}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b2378564-fb67-404a-6524-31db4de7b8a2
+  Components:
+    - !<own> b64973ad-7a8e-4c50-66a3-82d771a4d04d
+- !<SceneObject/7f651368-8331-411d-5d97-c56308b4bf27>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6a090dbb-f642-45fd-4eb9-2db45f89438e
+  Components:
+    []
+- !<SceneObject/972fa1e0-3936-4879-44b2-31135c42c1c5>
+  PrefabRemaps:
+    []
+  Name: cap001bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 21.573338, z: -0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/980ca487-2fb2-453f-73e0-a8c726d58d3d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c57a3059-1da2-4129-9156-3f926061517d
+  Mesh: !<reference> 4b81b6db-0a9b-40a7-8342-b97e5472d7ac
+  Skin: !<reference> b64973ad-7a8e-4c50-66a3-82d771a4d04d
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a41b4329-fb75-434c-7c4d-c90a4b12f4fb>
+  PrefabRemaps:
+    []
+  Name: hotSauce_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3932d8ab-0539-4f6f-7d15-490752c28048
+    - !<own> eead3c64-98a0-4214-5710-e06a6ae74b4c
+  Components:
+    []
+- !<SceneObject/b2378564-fb67-404a-6524-31db4de7b8a2>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 59ed4652-eb5b-444f-58cd-740259b70a90
+    - !<own> 7f651368-8331-411d-5d97-c56308b4bf27
+  Components:
+    []
+- !<Skin/b64973ad-7a8e-4c50-66a3-82d771a4d04d>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_bottle_GEO: !<reference> eead3c64-98a0-4214-5710-e06a6ae74b4c
+    C_cap_GEO: !<reference> 3932d8ab-0539-4f6f-7d15-490752c28048
+    PROP: !<reference> b2378564-fb67-404a-6524-31db4de7b8a2
+    bind_GRP: !<reference> 6a090dbb-f642-45fd-4eb9-2db45f89438e
+    cap001bind_JNT: !<reference> 972fa1e0-3936-4879-44b2-31135c42c1c5
+    geo_GRP: !<reference> 59ed4652-eb5b-444f-58cd-740259b70a90
+    hotSauce001_bind_JNT: !<reference> 0644dda9-3c3b-4408-40e9-e7ee6c9b3fd9
+    hotSauce_GRP: !<reference> a41b4329-fb75-434c-7c4d-c90a4b12f4fb
+    hot_sauce_bindrig: !<reference> 77c8dcfb-8a55-463c-516c-a5695b5c1944
+    rig_GRP: !<reference> 7f651368-8331-411d-5d97-c56308b4bf27
+- !<ObjectPrefabAssetData/d16745ce-1fc0-48ff-b14d-f012bad415ac>
+  Prototype: !<ObjectOwner/7f388b46-92ac-4dbc-8b66-2e8b5ae8623a>
+    PackagePath: ""
+    objects:
+      - !<own> 77c8dcfb-8a55-463c-516c-a5695b5c1944
+- !<SceneObject/eead3c64-98a0-4214-5710-e06a6ae74b4c>
+  PrefabRemaps:
+    []
+  Name: C_bottle_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2d5b1ac8-48b7-4450-5cd6-d88c80f7c103

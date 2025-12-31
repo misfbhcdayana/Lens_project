@@ -1,0 +1,176 @@
+- !<AssetImportMetadata/5c12a036-551a-4dc2-b764-e8eb2362d3bb>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f59dd60f-5370-45c7-a4a6-1e1127310a6a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f59dd60f-5370-45c7-a4a6-1e1127310a6a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 08b6ecdf-5e88-4b05-b54f-f4af40649e8b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/08b6ecdf-5e88-4b05-b54f-f4af40649e8b>
+  Prototype: !<ObjectOwner/429a11ed-2e3f-4225-983e-cf0087bf582a>
+    PackagePath: ""
+    objects:
+      - !<own> 425fb054-c6da-4514-6d18-e97fd94c04bb
+- !<SceneObject/0dcc49e2-35e8-43b5-6cce-2ecc6d8c4792>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f6619567-ef91-4ad9-66d0-b4e948dea441
+    - !<own> a8eed0f3-8841-4a5c-4f96-6b572fe26dca
+  Components:
+    []
+- !<SceneObject/3754b08a-0670-4901-7376-4909e2dd62c6>
+  PrefabRemaps:
+    []
+  Name: C_pickle_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a18c96be-2d9b-4269-70e7-2f5b32927087
+- !<SceneObject/425fb054-c6da-4514-6d18-e97fd94c04bb>
+  PrefabRemaps:
+    []
+  Name: Pickle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -13.985964, y: 11.939949, z: 0.000000}
+    Rotation: {x: 90.588341, y: -54.719753, z: -26.178141}
+    Scale: {x: 0.395178, y: 0.395178, z: 0.395191}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0dcc49e2-35e8-43b5-6cce-2ecc6d8c4792
+  Components:
+    - !<own> 9e803d90-4717-40f2-76ef-143b798f9815
+- !<SceneObject/7d7a5013-a0b9-42d8-5182-069838d80bcd>
+  PrefabRemaps:
+    []
+  Name: C_pickleSub_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.007462, y: 2.617956, z: 0.001886}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/9e803d90-4717-40f2-76ef-143b798f9815>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_pickleSub_bind_JNT: !<reference> 7d7a5013-a0b9-42d8-5182-069838d80bcd
+    C_pickle_GEO: !<reference> 3754b08a-0670-4901-7376-4909e2dd62c6
+    PROP: !<reference> 0dcc49e2-35e8-43b5-6cce-2ecc6d8c4792
+    bind_GRP: !<reference> f9cb951a-5e4b-4733-54d2-4bbb848dadfc
+    geo_GRP: !<reference> f6619567-ef91-4ad9-66d0-b4e948dea441
+    pickle_GRP: !<reference> a3867005-97cf-4480-6bb0-f7656184ee35
+    pickle_bindrig: !<reference> 425fb054-c6da-4514-6d18-e97fd94c04bb
+    rig_GRP: !<reference> a8eed0f3-8841-4a5c-4f96-6b572fe26dca
+- !<RenderMeshVisual/a18c96be-2d9b-4269-70e7-2f5b32927087>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> af9fdc36-1bca-4552-a799-e99df64aaa42
+  Mesh: !<reference> fea19903-f06e-4381-90ae-96cefaea6f14
+  Skin: !<reference> 9e803d90-4717-40f2-76ef-143b798f9815
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a3867005-97cf-4480-6bb0-f7656184ee35>
+  PrefabRemaps:
+    []
+  Name: pickle_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3754b08a-0670-4901-7376-4909e2dd62c6
+  Components:
+    []
+- !<SceneObject/a8eed0f3-8841-4a5c-4f96-6b572fe26dca>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f9cb951a-5e4b-4733-54d2-4bbb848dadfc
+  Components:
+    []
+- !<SceneObject/f6619567-ef91-4ad9-66d0-b4e948dea441>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a3867005-97cf-4480-6bb0-f7656184ee35
+  Components:
+    []
+- !<SceneObject/f9cb951a-5e4b-4733-54d2-4bbb848dadfc>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7d7a5013-a0b9-42d8-5182-069838d80bcd
+  Components:
+    []

@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/edb5048b-b1b7-ee38-67df-27e51abf847e>
+- !<AssetImportMetadata/7673ea6d-edce-84fb-71a7-d5c53ae84454>
   ImportedAssetIds:
     Texture: !<reference> 4bb896c3-e352-4b30-be74-b555424604e3
   ImporterName: FileTextureImporter
@@ -6,7 +6,7 @@
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
-    {}
+    AssetLibraryId: 7dT8OV2TaDUaOAJrCMjs5u
   AssetDataMap:
     {}
   DependentFiles:

@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/cf96ac8d-9d70-decd-da71-efcca96aa5ff>
+- !<AssetImportMetadata/ef1d60c4-d00c-a566-48e1-cc8bac91b3e4>
   ImportedAssetIds:
     FileMesh: !<reference> 14558f0e-1f53-4b91-8ceb-56d22583496f
   ImporterName: FileMeshImporter
@@ -6,7 +6,7 @@
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
-    {}
+    AssetLibraryId: 7dT8OV2TaDUaOAJrCMjs5u
   AssetDataMap:
     {}
   DependentFiles:

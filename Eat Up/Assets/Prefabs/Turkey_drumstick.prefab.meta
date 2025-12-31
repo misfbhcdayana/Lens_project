@@ -1,0 +1,213 @@
+- !<AssetImportMetadata/75ec1808-aebf-4b4f-9d00-8bd5fecb7cb7>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 050bda93-e0a3-4cf7-98d9-05a9c192f930
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 050bda93-e0a3-4cf7-98d9-05a9c192f930
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 1f4e9fcd-410f-464d-b19c-ca20afb3325d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/04086d90-3958-4e37-7384-3050d1727875>
+  PrefabRemaps:
+    []
+  Name: C_drumstick_bit_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7d81138f-6df7-4324-6214-27a5016fe2d4
+- !<SceneObject/0a6cf1b1-3a66-4235-61ff-a2fc3870c1f3>
+  PrefabRemaps:
+    []
+  Name: Turkey_drumstick
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -15.000000, y: -27.188349, z: 0.000000}
+    Rotation: {x: 45.581966, y: -16.383823, z: -6.854542}
+    Scale: {x: 0.264801, y: 0.264801, z: 0.264801}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9603d884-7082-4b4d-5433-7750d6b58077
+  Components:
+    - !<own> e6cbb6cd-2718-4432-5d46-d287706d0a60
+- !<ObjectPrefabAssetData/1f4e9fcd-410f-464d-b19c-ca20afb3325d>
+  Prototype: !<ObjectOwner/92214b20-9e90-41e8-8435-62f984279416>
+    PackagePath: ""
+    objects:
+      - !<own> 0a6cf1b1-3a66-4235-61ff-a2fc3870c1f3
+- !<SceneObject/24d3b4a4-3d7f-464d-40e7-9001b05d3028>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44e147dc-7d9a-43bf-6c38-950f4b0bac6a
+  Components:
+    []
+- !<SceneObject/44e147dc-7d9a-43bf-6c38-950f4b0bac6a>
+  PrefabRemaps:
+    []
+  Name: C_drumStick_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/6681f2fa-1531-48b7-637a-f383e327010c>
+  PrefabRemaps:
+    []
+  Name: C_turkey_drumstick_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7062be93-335f-49d8-4209-6ff976f69d8c
+- !<SceneObject/6821e0d3-7a75-43b3-6ffc-60b30d0b083e>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 24d3b4a4-3d7f-464d-40e7-9001b05d3028
+  Components:
+    []
+- !<RenderMeshVisual/7062be93-335f-49d8-4209-6ff976f69d8c>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8be4daa2-7c8f-4c94-8971-c18baede6a88
+  Mesh: !<reference> 728f34d3-aff2-4a8f-a19e-10d2dd0d960c
+  Skin: !<reference> e6cbb6cd-2718-4432-5d46-d287706d0a60
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7a18576c-5a4b-466b-44ad-8356073b49be>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e4c79e18-3238-481a-79fb-22c34c8c9df1
+  Components:
+    []
+- !<RenderMeshVisual/7d81138f-6df7-4324-6214-27a5016fe2d4>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8be4daa2-7c8f-4c94-8971-c18baede6a88
+  Mesh: !<reference> cc7a1184-2095-4bb1-bfbf-7455511a436a
+  Skin: !<reference> e6cbb6cd-2718-4432-5d46-d287706d0a60
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9603d884-7082-4b4d-5433-7750d6b58077>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7a18576c-5a4b-466b-44ad-8356073b49be
+    - !<own> 6821e0d3-7a75-43b3-6ffc-60b30d0b083e
+  Components:
+    []
+- !<SceneObject/e4c79e18-3238-481a-79fb-22c34c8c9df1>
+  PrefabRemaps:
+    []
+  Name: turkey_drumstick_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 04086d90-3958-4e37-7384-3050d1727875
+    - !<own> 6681f2fa-1531-48b7-637a-f383e327010c
+  Components:
+    []
+- !<Skin/e6cbb6cd-2718-4432-5d46-d287706d0a60>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_drumStick_bind_JNT: !<reference> 44e147dc-7d9a-43bf-6c38-950f4b0bac6a
+    C_drumstick_bit_GEO: !<reference> 04086d90-3958-4e37-7384-3050d1727875
+    C_turkey_drumstick_GEO: !<reference> 6681f2fa-1531-48b7-637a-f383e327010c
+    PROP: !<reference> 9603d884-7082-4b4d-5433-7750d6b58077
+    bind_GRP: !<reference> 24d3b4a4-3d7f-464d-40e7-9001b05d3028
+    geo_GRP: !<reference> 7a18576c-5a4b-466b-44ad-8356073b49be
+    rig_GRP: !<reference> 6821e0d3-7a75-43b3-6ffc-60b30d0b083e
+    turkey_drumstick_GRP: !<reference> e4c79e18-3238-481a-79fb-22c34c8c9df1
+    turkey_drumstick_bindrig: !<reference> 0a6cf1b1-3a66-4235-61ff-a2fc3870c1f3

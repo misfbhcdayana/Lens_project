@@ -1,0 +1,176 @@
+- !<AssetImportMetadata/943a695e-3c9b-4695-b1b3-c638179e0f23>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> a710a7b3-6de7-47ac-b4e1-6178270f5238
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> a710a7b3-6de7-47ac-b4e1-6178270f5238
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> c1d5ebaf-cd90-4ca8-8bb1-7b21f9e419d3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/070e565e-b29d-4565-4bb4-1f4e7b351168>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 91.553192, y: -3.647314, z: -11.316216}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b6e6e14f-ff07-4165-5942-3f315c9a01b8
+    - !<own> 5ccb102e-5399-4a9b-56c6-7eb6fc1c2b4d
+  Components:
+    []
+- !<SceneObject/0842e9f0-4c74-4227-5552-d777ba2d9dbf>
+  PrefabRemaps:
+    []
+  Name: C_salad_leaf_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2c696746-056b-44a7-66ad-ab1c0e4dc10c
+- !<SceneObject/26a0d4ed-a204-402c-77f7-6e9520939dc3>
+  PrefabRemaps:
+    []
+  Name: Salad_leaf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.881913, y: -17.100586, z: 0.000000}
+    Rotation: {x: -34.052193, y: -6.013225, z: 3.124781}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 070e565e-b29d-4565-4bb4-1f4e7b351168
+  Components:
+    - !<own> 4632262b-2578-4cd0-5ed1-10484194e81b
+- !<RenderMeshVisual/2c696746-056b-44a7-66ad-ab1c0e4dc10c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b77c2e1e-55f3-4981-9d96-fd7e07972e5b
+  Mesh: !<reference> 0ce36a15-5d93-408c-9be3-d85035367e57
+  Skin: !<reference> 4632262b-2578-4cd0-5ed1-10484194e81b
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3a30383a-3d64-4d55-5bbc-c8a5f44bea56>
+  PrefabRemaps:
+    []
+  Name: C_saladLeaf_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/4632262b-2578-4cd0-5ed1-10484194e81b>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_saladLeaf_bind_JNT: !<reference> 3a30383a-3d64-4d55-5bbc-c8a5f44bea56
+    C_salad_leaf_GEO: !<reference> 0842e9f0-4c74-4227-5552-d777ba2d9dbf
+    PROP: !<reference> 070e565e-b29d-4565-4bb4-1f4e7b351168
+    bind_GRP: !<reference> 5559a79a-7212-4646-701d-8c5d703877b0
+    geo_GRP: !<reference> b6e6e14f-ff07-4165-5942-3f315c9a01b8
+    rig_GRP: !<reference> 5ccb102e-5399-4a9b-56c6-7eb6fc1c2b4d
+    salad_leaf_GRP: !<reference> ad50f39c-b638-4baf-5ced-1888db9e0648
+    salad_leaf_bindrig: !<reference> 26a0d4ed-a204-402c-77f7-6e9520939dc3
+- !<SceneObject/5559a79a-7212-4646-701d-8c5d703877b0>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3a30383a-3d64-4d55-5bbc-c8a5f44bea56
+  Components:
+    []
+- !<SceneObject/5ccb102e-5399-4a9b-56c6-7eb6fc1c2b4d>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5559a79a-7212-4646-701d-8c5d703877b0
+  Components:
+    []
+- !<SceneObject/ad50f39c-b638-4baf-5ced-1888db9e0648>
+  PrefabRemaps:
+    []
+  Name: salad_leaf_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0842e9f0-4c74-4227-5552-d777ba2d9dbf
+  Components:
+    []
+- !<SceneObject/b6e6e14f-ff07-4165-5942-3f315c9a01b8>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ad50f39c-b638-4baf-5ced-1888db9e0648
+  Components:
+    []
+- !<ObjectPrefabAssetData/c1d5ebaf-cd90-4ca8-8bb1-7b21f9e419d3>
+  Prototype: !<ObjectOwner/9f3e0939-83a6-4b34-990c-5372c7e49aa8>
+    PackagePath: ""
+    objects:
+      - !<own> 26a0d4ed-a204-402c-77f7-6e9520939dc3

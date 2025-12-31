@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/505755c2-1af1-e8e4-85b0-6dbea77e28b2>
+- !<AssetImportMetadata/711cfcaf-f456-c012-20a0-2dfb2b225eb6>
   ImportedAssetIds:
     ShaderGraph: !<reference> e7751bb6-7d64-464e-860d-b7d8f7eb4aad
   ImporterName: ShaderGraphPassImporter
@@ -6,7 +6,7 @@
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
-    {}
+    AssetLibraryId: 7dT8OV2TaDUaOAJrCMjs5u
   AssetDataMap:
     {}
   DependentFiles:

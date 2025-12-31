@@ -1,0 +1,478 @@
+- !<ObjectPrefab/f5c325d3-90d3-4d3f-8ecb-d1ab740f9725>
+  PackagePath: ""
+  objects:
+    - !<own> 69b4cac3-03c2-4498-ba64-0438d69bc6eb
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/14facb76-1143-46ae-aaed-740fb5302cb5>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> 2f5a92ec-7c6b-40d0-bb9c-28738c6a3ff9
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/15e3b05b-2442-4a5e-9dba-60340b149a91>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_4_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14facb76-1143-46ae-aaed-740fb5302cb5
+- !<RenderMeshVisual/28a7bee4-8452-46f7-9682-efa1e0bd7e61>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> 2295d068-a5bb-401b-ad8f-3600ac58420d
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2ae0c4c4-e5a7-429f-aa8c-416187065bc9>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 84942242-cc1d-4c00-9491-55a34cd65b54
+    - !<own> e07c1d36-cf7a-48e7-8e74-a7720bb9d5aa
+  Components:
+    []
+- !<RenderMeshVisual/2b7eaabf-f11c-4974-848a-c237b2cb7572>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> 5f3c623e-d494-4a65-9bd7-4d854b492d22
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/54a84c19-94a0-4f42-a8ec-ec936a4cd2e8>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_6_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c5aff59-bc54-48b1-943c-e39815838db2
+- !<SceneObject/679b478e-f032-47d5-a51d-f4f19f5d174a>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f501f239-65d9-4ea2-994d-e8cef1d2927b
+    - !<own> d593a427-fae4-46b2-bbeb-f97bdca0d950
+  Components:
+    []
+- !<SceneObject/69b4cac3-03c2-4498-ba64-0438d69bc6eb>
+  PrefabRemaps:
+    - 14facb76-1143-46ae-aaed-740fb5302cb5: 14facb76-1143-46ae-5512-8bf04acfd34a
+    - 15e3b05b-2442-4a5e-9dba-60340b149a91: 15e3b05b-2442-4a5e-6245-9fcbf4eb656e
+    - 28a7bee4-8452-46f7-9682-efa1e0bd7e61: 28a7bee4-8452-46f7-697d-105e1f42819e
+    - 2ae0c4c4-e5a7-429f-aa8c-416187065bc9: 2ae0c4c4-e5a7-429f-5573-be9e78f9a436
+    - 2b7eaabf-f11c-4974-848a-c237b2cb7572: 2b7eaabf-f11c-4974-7b75-3dc84d348a8d
+    - 54a84c19-94a0-4f42-a8ec-ec936a4cd2e8: 54a84c19-94a0-4f42-5713-136c95b32d17
+    - 679b478e-f032-47d5-a51d-f4f19f5d174a: 679b478e-f032-47d5-5ae2-0b0e60a2e8b5
+    - 69b4cac3-03c2-4498-ba64-0438d69bc6eb: 69b4cac3-03c2-4498-459b-fbc729643914
+    - 746a42c5-f930-4d25-bee0-b8995ac06897: 746a42c5-f930-4d25-411f-4766a53f9768
+    - 78396b62-f155-4d85-a54e-13c4a030372f: 78396b62-f155-4d85-5ab1-ec3b5fcfc8d0
+    - 7f158b94-a8d3-4be4-9b81-731ece0fe059: 7f158b94-a8d3-4be4-647e-8ce131f01fa6
+    - 84942242-cc1d-4c00-9491-55a34cd65b54: 84942242-cc1d-4c00-6b6e-aa5cb329a4ab
+    - 8aa4af49-c223-4664-ab43-c7995973613d: 8aa4af49-c223-4664-54bc-3866a68c9ec2
+    - 8c3229d4-4bac-4efd-824e-207c33e31fc0: 8c3229d4-4bac-4efd-7db1-df83cc1ce03f
+    - 8c5aff59-bc54-48b1-943c-e39815838db2: 8c5aff59-bc54-48b1-6bc3-1c67ea7c724d
+    - 9915fa9f-b0a6-4b7e-bead-285b492dd284: 9915fa9f-b0a6-4b7e-4152-d7a4b6d22d7b
+    - 9ee9436b-dc26-471a-b369-2174b0acefe9: 9ee9436b-dc26-471a-4c96-de8b4f531016
+    - a02a38b9-6fdf-46dc-ba5c-1737d8b055a9: a02a38b9-6fdf-46dc-45a3-e8c8274faa56
+    - a517d5e9-134e-4671-b85e-051685409bbc: a517d5e9-134e-4671-47a1-fae97abf6443
+    - a7a9505a-5d32-4a1d-a345-2519493769e7: a7a9505a-5d32-4a1d-5cba-dae6b6c89618
+    - c48b9cd5-ba03-44ee-ae74-1300dc3560b2: c48b9cd5-ba03-44ee-518b-ecff23ca9f4d
+    - d593a427-fae4-46b2-bbeb-f97bdca0d950: d593a427-fae4-46b2-4414-0684235f26af
+    - d9ad9d55-e293-4aed-a6e5-34003f727926: d9ad9d55-e293-4aed-591a-cbffc08d86d9
+    - e07c1d36-cf7a-48e7-8e74-a7720bb9d5aa: e07c1d36-cf7a-48e7-718b-588df4462a55
+    - f501f239-65d9-4ea2-994d-e8cef1d2927b: f501f239-65d9-4ea2-66b2-17310e2d6d84
+    - ff621ac3-649b-4e6e-84b8-daaa50e11cce: ff621ac3-649b-4e6e-7b47-2555af1ee331
+  Name: pie_slice_bindrig 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.578251, y: 20.608042, z: 26.478567}
+    Rotation: {x: 71.275986, y: 5.977413, z: 30.015423}
+    Scale: {x: 0.279038, y: 0.279038, z: 0.279038}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9ad9d55-e293-4aed-a6e5-34003f727926
+  Components:
+    - !<own> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+- !<SceneObject/746a42c5-f930-4d25-bee0-b8995ac06897>
+  PrefabRemaps:
+    []
+  Name: C_pie_slice_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b7eaabf-f11c-4974-848a-c237b2cb7572
+- !<SceneObject/78396b62-f155-4d85-a54e-13c4a030372f>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_1_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7f158b94-a8d3-4be4-9b81-731ece0fe059
+- !<RenderMeshVisual/7f158b94-a8d3-4be4-9b81-731ece0fe059>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> c27c4904-738a-4851-ab0c-433ba51ceefb
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/84942242-cc1d-4c00-9491-55a34cd65b54>
+  PrefabRemaps:
+    []
+  Name: pie_slice_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 746a42c5-f930-4d25-bee0-b8995ac06897
+  Components:
+    []
+- !<SceneObject/8aa4af49-c223-4664-ab43-c7995973613d>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 679b478e-f032-47d5-a51d-f4f19f5d174a
+  Components:
+    []
+- !<SceneObject/8c3229d4-4bac-4efd-824e-207c33e31fc0>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_7_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 28a7bee4-8452-46f7-9682-efa1e0bd7e61
+- !<RenderMeshVisual/8c5aff59-bc54-48b1-943c-e39815838db2>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> 57cdfe22-74cb-4c37-b06c-756c672e6d34
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9915fa9f-b0a6-4b7e-bead-285b492dd284>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> bb0810d5-6d0c-4cc3-bf59-c04a2e18f206
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9ee9436b-dc26-471a-b369-2174b0acefe9>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_2_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c48b9cd5-ba03-44ee-ae74-1300dc3560b2
+- !<Skin/a02a38b9-6fdf-46dc-ba5c-1737d8b055a9>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  skinBones:
+    C_base_bind_JNT: !<reference> f501f239-65d9-4ea2-994d-e8cef1d2927b
+    C_pieShatterSub_bind_JNT: !<reference> d593a427-fae4-46b2-bbeb-f97bdca0d950
+    C_pie_shatter_1_GEO: !<reference> 78396b62-f155-4d85-a54e-13c4a030372f
+    C_pie_shatter_2_GEO: !<reference> 9ee9436b-dc26-471a-b369-2174b0acefe9
+    C_pie_shatter_3_GEO: !<reference> a7a9505a-5d32-4a1d-a345-2519493769e7
+    C_pie_shatter_4_GEO: !<reference> 15e3b05b-2442-4a5e-9dba-60340b149a91
+    C_pie_shatter_5_GEO: !<reference> ff621ac3-649b-4e6e-84b8-daaa50e11cce
+    C_pie_shatter_6_GEO: !<reference> 54a84c19-94a0-4f42-a8ec-ec936a4cd2e8
+    C_pie_shatter_7_GEO: !<reference> 8c3229d4-4bac-4efd-824e-207c33e31fc0
+    C_pie_slice_GEO: !<reference> 746a42c5-f930-4d25-bee0-b8995ac06897
+    PROP: !<reference> d9ad9d55-e293-4aed-a6e5-34003f727926
+    bind_GRP: !<reference> 679b478e-f032-47d5-a51d-f4f19f5d174a
+    geo_GRP: !<reference> 2ae0c4c4-e5a7-429f-aa8c-416187065bc9
+    pie_shatter_GRP: !<reference> e07c1d36-cf7a-48e7-8e74-a7720bb9d5aa
+    pie_slice_GRP: !<reference> 84942242-cc1d-4c00-9491-55a34cd65b54
+    pie_slice_bindrig: !<reference> 69b4cac3-03c2-4498-ba64-0438d69bc6eb
+    rig_GRP: !<reference> 8aa4af49-c223-4664-ab43-c7995973613d
+- !<RenderMeshVisual/a517d5e9-134e-4671-b85e-051685409bbc>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> d5772748-bce8-413d-af71-1f8158fb4469
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a7a9505a-5d32-4a1d-a345-2519493769e7>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_3_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a517d5e9-134e-4671-b85e-051685409bbc
+- !<RenderMeshVisual/c48b9cd5-ba03-44ee-ae74-1300dc3560b2>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ab42f2e-6960-4dd5-b850-209fe67266ee
+  Mesh: !<reference> d8dc7749-e1a1-4411-abf0-57f3a028e358
+  Skin: !<reference> a02a38b9-6fdf-46dc-ba5c-1737d8b055a9
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d593a427-fae4-46b2-bbeb-f97bdca0d950>
+  PrefabRemaps:
+    []
+  Name: C_pieShatterSub_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 4.737001, y: 1.754257, z: 0.876777}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d9ad9d55-e293-4aed-a6e5-34003f727926>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2ae0c4c4-e5a7-429f-aa8c-416187065bc9
+    - !<own> 8aa4af49-c223-4664-ab43-c7995973613d
+  Components:
+    []
+- !<SceneObject/e07c1d36-cf7a-48e7-8e74-a7720bb9d5aa>
+  PrefabRemaps:
+    []
+  Name: pie_shatter_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 78396b62-f155-4d85-a54e-13c4a030372f
+    - !<own> 9ee9436b-dc26-471a-b369-2174b0acefe9
+    - !<own> a7a9505a-5d32-4a1d-a345-2519493769e7
+    - !<own> 15e3b05b-2442-4a5e-9dba-60340b149a91
+    - !<own> ff621ac3-649b-4e6e-84b8-daaa50e11cce
+    - !<own> 54a84c19-94a0-4f42-a8ec-ec936a4cd2e8
+    - !<own> 8c3229d4-4bac-4efd-824e-207c33e31fc0
+  Components:
+    []
+- !<SceneObject/f501f239-65d9-4ea2-994d-e8cef1d2927b>
+  PrefabRemaps:
+    []
+  Name: C_base_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ff621ac3-649b-4e6e-84b8-daaa50e11cce>
+  PrefabRemaps:
+    []
+  Name: C_pie_shatter_5_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9915fa9f-b0a6-4b7e-bead-285b492dd284

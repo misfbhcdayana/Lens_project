@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/f97b2df1-3612-e7fc-cb9b-dff59bb05322>
+- !<AssetImportMetadata/1ac633e1-dcf0-80c0-ea13-ad60319f47ba>
   ImportedAssetIds:
     Material: !<reference> 28d3a12b-9f20-498b-8d21-0e7875de9422
   ImporterName: MaterialImporter
@@ -6,7 +6,7 @@
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
-    {}
+    AssetLibraryId: 7dT8OV2TaDUaOAJrCMjs5u
   AssetDataMap:
     {}
   DependentFiles:

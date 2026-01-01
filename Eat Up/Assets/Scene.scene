@@ -9,6 +9,7 @@
     - !<own> 77f01774-610d-4ca7-87a1-aad5fb4ef6d6
     - !<own> 53046b4a-39eb-418b-af98-fedf08b5b580
     - !<own> 0293afa4-f44f-4612-8321-7addebb7a1fb
+    - !<own> b78fd396-45e3-4794-ba6c-dce04a50a981
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -1263,6 +1264,23 @@
     - !<own> 21c5eea1-7dab-4bcb-89a2-180fccc60950
   Components:
     - !<own> 207d7728-3889-4198-a288-7cf016123b82
+- !<AudioComponent/1575afe8-469d-496c-aeb0-438bebc3f546>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c469da1c-a635-4644-aa56-fdcfd4b918ea
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/16bd924c-253a-41a6-9f0f-a645ebef00a7>
   PrefabRemaps:
     []
@@ -3162,7 +3180,7 @@
   PrefabRemaps:
     []
   Name: "Mouth "
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 2.279537}
@@ -3397,6 +3415,7 @@
   ScriptAsset: !<reference> 2084a8a9-b16d-4843-91ed-d158c3fb04bc
   ScriptInputsDefault:
     fallSpeed: true
+    particlePrefab: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -3426,7 +3445,9 @@
       fallSpeed: !<float> 10.000000
       headBinding: !<reference.SceneObject> 42859071-92df-40b2-ae8f-b48c5b32df3c
       faceStretch: !<reference.FaceStretchVisual> 1263f12a-c8eb-4e37-b14e-fd3d2840d161
-      eatDistance: !<float> 7.000000
+      eatDistance: !<float> 5.000000
+      particlePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 1575afe8-469d-496c-aeb0-438bebc3f546
   ScriptTypes:
     "":
       {}
@@ -4991,6 +5012,21 @@
     - !<own> 3c7e0cf7-11d3-47ed-bec4-2bbfe4bfe5d4
   Components:
     []
+- !<SceneObject/b78fd396-45e3-4794-ba6c-dce04a50a981>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f4474071-b267-4531-9d3b-96372da297ff
+  Components:
+    []
 - !<SceneObject/b7f82ba0-ff60-400f-991d-1f740eb5716a>
   PrefabRemaps:
     []
@@ -5861,7 +5897,7 @@
   PrefabRemaps:
     []
   Name: Mouth closed
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -7922,7 +7958,7 @@
   PrefabRemaps:
     []
   Name: Mouth open
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -8343,6 +8379,21 @@
     []
   Components:
     - !<own> 3909252b-42c7-437d-85d8-40ed649dddb2
+- !<SceneObject/f4474071-b267-4531-9d3b-96372da297ff>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1575afe8-469d-496c-aeb0-438bebc3f546
 - !<SceneObject/f467d760-611d-4305-9b75-c74b0f272b1a>
   PrefabRemaps:
     []

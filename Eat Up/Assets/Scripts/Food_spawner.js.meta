@@ -26,6 +26,7 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    audio: false
     eatDistance: false
     faceStretch: false
     fallSpeed: false
@@ -53,6 +54,7 @@
       faceStretch: !<reference.FaceStretchVisual> 00000000-0000-0000-0000-000000000000
       eatDistance: !<float> 2.000000
       particlePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

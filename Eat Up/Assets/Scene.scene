@@ -855,6 +855,370 @@
     - !<own> 713f66ef-f0f2-47c1-be25-d0deb7bdb7b9
   Components:
     []
+- !<FaceStretchVisual/1263f12a-c8eb-4e37-b14e-fd3d2840d161>
+  PrefabRemaps:
+    []
+  Name: Face Stretch
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  FaceIndex: 0
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+  Features:
+    - name: Feature 0
+      weight: 1.000000
+      points:
+        - index: 0
+          delta: {x: -0.000005, y: -0.000277, z: 0.000000}
+          weight: 0.000000
+        - index: 1
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 2
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 3
+          delta: {x: 0.000635, y: -0.002580, z: 0.000000}
+          weight: 0.000000
+        - index: 4
+          delta: {x: 0.000936, y: -0.005997, z: 0.000000}
+          weight: 0.000000
+        - index: 5
+          delta: {x: 0.004710, y: -0.044562, z: 0.000000}
+          weight: 0.000000
+        - index: 6
+          delta: {x: 0.003825, y: -0.037584, z: 0.000000}
+          weight: 0.000000
+        - index: 7
+          delta: {x: 0.002953, y: -0.020853, z: 0.000000}
+          weight: 0.000000
+        - index: 8
+          delta: {x: 0.001639, y: -0.005391, z: 0.000000}
+          weight: 0.000000
+        - index: 9
+          delta: {x: 0.001015, y: -0.001679, z: 0.000000}
+          weight: 0.000000
+        - index: 10
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 11
+          delta: {x: -0.002330, y: 0.000530, z: 0.000000}
+          weight: 0.000000
+        - index: 12
+          delta: {x: -0.005491, y: 0.013956, z: 0.000000}
+          weight: 0.000000
+        - index: 13
+          delta: {x: 0.008171, y: 0.019690, z: 0.000000}
+          weight: 0.000000
+        - index: 14
+          delta: {x: 0.023938, y: 0.039659, z: 0.000000}
+          weight: 0.000000
+        - index: 15
+          delta: {x: 0.080904, y: 0.005726, z: 0.000000}
+          weight: 0.000000
+        - index: 16
+          delta: {x: 0.034171, y: 0.022105, z: 0.000000}
+          weight: 0.000000
+        - index: 17
+          delta: {x: 0.012315, y: 0.005174, z: 0.000000}
+          weight: 0.000000
+        - index: 18
+          delta: {x: 0.045650, y: 0.018308, z: 0.000000}
+          weight: 0.000000
+        - index: 19
+          delta: {x: 0.057281, y: 0.001064, z: 0.000000}
+          weight: 0.000000
+        - index: 20
+          delta: {x: 0.123036, y: -0.033607, z: 0.000000}
+          weight: 0.000000
+        - index: 21
+          delta: {x: 0.052840, y: 0.003616, z: 0.000000}
+          weight: 0.000000
+        - index: 22
+          delta: {x: 0.097207, y: -0.026239, z: 0.000000}
+          weight: 0.000000
+        - index: 23
+          delta: {x: 0.037190, y: -0.003952, z: 0.000000}
+          weight: 0.000000
+        - index: 24
+          delta: {x: 0.100670, y: -0.028753, z: 0.000000}
+          weight: 0.000000
+        - index: 25
+          delta: {x: 0.106620, y: -0.056854, z: 0.000000}
+          weight: 0.000000
+        - index: 26
+          delta: {x: 0.179219, y: -0.064058, z: 0.000000}
+          weight: 0.000000
+        - index: 27
+          delta: {x: 0.237803, y: -0.102052, z: 0.000000}
+          weight: 0.000000
+        - index: 28
+          delta: {x: 0.262107, y: -0.097904, z: 0.000000}
+          weight: 0.000000
+        - index: 29
+          delta: {x: 0.147929, y: -0.034910, z: 0.000000}
+          weight: 0.000000
+        - index: 30
+          delta: {x: 0.241102, y: -0.082024, z: 0.000000}
+          weight: 0.000000
+        - index: 31
+          delta: {x: 0.180123, y: -0.050154, z: 0.000000}
+          weight: 0.000000
+        - index: 32
+          delta: {x: 0.007650, y: -0.034320, z: 0.000000}
+          weight: 0.000000
+        - index: 33
+          delta: {x: 0.033267, y: -0.024742, z: 0.000000}
+          weight: 0.000000
+        - index: 34
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 35
+          delta: {x: 0.000001, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 36
+          delta: {x: 0.000446, y: -0.001266, z: 0.000000}
+          weight: 0.000000
+        - index: 37
+          delta: {x: 0.000689, y: -0.003272, z: 0.000000}
+          weight: 0.000000
+        - index: 38
+          delta: {x: 0.004732, y: -0.044084, z: 0.000000}
+          weight: 0.000000
+        - index: 39
+          delta: {x: 0.004039, y: -0.042251, z: 0.000000}
+          weight: 0.000000
+        - index: 40
+          delta: {x: 0.002134, y: -0.011529, z: 0.000000}
+          weight: 0.000000
+        - index: 41
+          delta: {x: 0.001825, y: -0.007123, z: 0.000000}
+          weight: 0.000000
+        - index: 42
+          delta: {x: 0.001192, y: -0.002859, z: 0.000000}
+          weight: 0.000000
+        - index: 43
+          delta: {x: -0.000025, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 44
+          delta: {x: 0.002345, y: 0.000589, z: 0.000000}
+          weight: 0.000000
+        - index: 45
+          delta: {x: 0.005469, y: 0.014203, z: 0.000000}
+          weight: 0.000000
+        - index: 46
+          delta: {x: -0.008188, y: 0.019590, z: 0.000000}
+          weight: 0.000000
+        - index: 47
+          delta: {x: -0.024538, y: 0.039201, z: 0.000000}
+          weight: 0.000000
+        - index: 48
+          delta: {x: -0.079190, y: 0.006140, z: 0.000000}
+          weight: 0.000000
+        - index: 49
+          delta: {x: -0.032607, y: 0.022878, z: 0.000000}
+          weight: 0.000000
+        - index: 50
+          delta: {x: -0.011778, y: 0.005633, z: 0.000000}
+          weight: 0.000000
+        - index: 51
+          delta: {x: -0.043568, y: 0.019503, z: 0.000000}
+          weight: 0.000000
+        - index: 52
+          delta: {x: -0.056344, y: 0.000780, z: 0.000000}
+          weight: 0.000000
+        - index: 53
+          delta: {x: -0.123306, y: -0.034342, z: 0.000000}
+          weight: 0.000000
+        - index: 54
+          delta: {x: -0.050474, y: 0.004098, z: 0.000000}
+          weight: 0.000000
+        - index: 55
+          delta: {x: -0.095651, y: -0.025924, z: 0.000000}
+          weight: 0.000000
+        - index: 56
+          delta: {x: -0.035599, y: -0.004082, z: 0.000000}
+          weight: 0.000000
+        - index: 57
+          delta: {x: -0.099042, y: -0.028374, z: 0.000000}
+          weight: 0.000000
+        - index: 58
+          delta: {x: -0.099624, y: -0.055613, z: 0.000000}
+          weight: 0.000000
+        - index: 59
+          delta: {x: -0.172649, y: -0.063042, z: 0.000000}
+          weight: 0.000000
+        - index: 60
+          delta: {x: -0.237491, y: -0.101965, z: 0.000000}
+          weight: 0.000000
+        - index: 61
+          delta: {x: -0.262277, y: -0.098032, z: 0.000000}
+          weight: 0.000000
+        - index: 62
+          delta: {x: -0.149679, y: -0.036516, z: 0.000000}
+          weight: 0.000000
+        - index: 63
+          delta: {x: -0.241799, y: -0.082402, z: 0.000000}
+          weight: 0.000000
+        - index: 64
+          delta: {x: -0.173024, y: -0.049758, z: 0.000000}
+          weight: 0.000000
+        - index: 65
+          delta: {x: -0.007492, y: -0.033567, z: 0.000000}
+          weight: 0.000000
+        - index: 66
+          delta: {x: -0.026852, y: -0.024175, z: 0.000000}
+          weight: 0.000000
+        - index: 67
+          delta: {x: 0.071913, y: -0.003784, z: 0.000000}
+          weight: 0.000000
+        - index: 68
+          delta: {x: 0.117661, y: -0.036836, z: 0.000000}
+          weight: 0.000000
+        - index: 69
+          delta: {x: -0.069787, y: -0.003152, z: 0.000000}
+          weight: 0.000000
+        - index: 70
+          delta: {x: -0.116634, y: -0.036715, z: 0.000000}
+          weight: 0.000000
+        - index: 71
+          delta: {x: 0.046889, y: 0.002731, z: 0.000000}
+          weight: 0.000000
+        - index: 72
+          delta: {x: 0.081459, y: -0.019529, z: 0.000000}
+          weight: 0.000000
+        - index: 73
+          delta: {x: -0.044960, y: 0.002954, z: 0.000000}
+          weight: 0.000000
+        - index: 74
+          delta: {x: -0.079882, y: -0.019296, z: 0.000000}
+          weight: 0.000000
+        - index: 75
+          delta: {x: 0.079132, y: -0.051612, z: 0.000000}
+          weight: 0.000000
+        - index: 76
+          delta: {x: -0.070307, y: -0.050388, z: 0.000000}
+          weight: 0.000000
+        - index: 77
+          delta: {x: 0.005160, y: -0.005689, z: 0.000000}
+          weight: 0.000000
+        - index: 78
+          delta: {x: -0.003386, y: -0.005743, z: 0.000000}
+          weight: 0.000000
+        - index: 79
+          delta: {x: 0.087637, y: -0.034862, z: 0.000000}
+          weight: 0.000000
+        - index: 80
+          delta: {x: -0.080625, y: -0.034112, z: 0.000000}
+          weight: 0.000000
+        - index: 81
+          delta: {x: 0.055511, y: -0.025479, z: 0.000000}
+          weight: 0.000000
+        - index: 82
+          delta: {x: -0.050338, y: -0.024610, z: 0.000000}
+          weight: 0.000000
+        - index: 83
+          delta: {x: 0.052577, y: -0.024349, z: 0.000000}
+          weight: 0.000000
+        - index: 84
+          delta: {x: -0.047941, y: -0.023541, z: 0.000000}
+          weight: 0.000000
+        - index: 85
+          delta: {x: 0.055346, y: -0.027052, z: 0.000000}
+          weight: 0.000000
+        - index: 86
+          delta: {x: -0.051085, y: -0.025980, z: 0.000000}
+          weight: 0.000000
+        - index: 87
+          delta: {x: 0.002327, y: -0.013483, z: 0.000000}
+          weight: 0.000000
+        - index: 88
+          delta: {x: 0.134246, y: -0.043379, z: 0.000000}
+          weight: 0.000000
+        - index: 89
+          delta: {x: -0.127471, y: -0.043046, z: 0.000000}
+          weight: 0.000000
+        - index: 90
+          delta: {x: 0.247564, y: -0.073809, z: 0.000000}
+          weight: 0.000000
+        - index: 91
+          delta: {x: -0.246690, y: -0.073161, z: 0.000000}
+          weight: 0.000000
+        - index: 92
+          delta: {x: 0.037833, y: -0.030510, z: 0.000000}
+          weight: 0.000000
+        - index: 93
+          delta: {x: -0.033383, y: -0.029921, z: 0.000000}
+          weight: 0.000000
+        - index: 94
+          delta: {x: 0.002079, y: -0.022615, z: 0.000000}
+          weight: 0.000000
+        - index: 95
+          delta: {x: 0.082876, y: -0.009528, z: 0.000000}
+          weight: 0.000000
+        - index: 96
+          delta: {x: -0.082426, y: -0.009938, z: 0.000000}
+          weight: 0.000000
+        - index: 97
+          delta: {x: 0.081568, y: -0.008602, z: 0.000000}
+          weight: 0.000000
+        - index: 98
+          delta: {x: -0.081137, y: -0.009026, z: 0.000000}
+          weight: 0.000000
+        - index: 99
+          delta: {x: 0.117855, y: -0.035244, z: 0.000000}
+          weight: 0.000000
+        - index: 100
+          delta: {x: -0.117239, y: -0.035380, z: 0.000000}
+          weight: 0.000000
+        - index: 101
+          delta: {x: 0.117504, y: -0.034990, z: 0.000000}
+          weight: 0.000000
+        - index: 102
+          delta: {x: -0.116946, y: -0.035158, z: 0.000000}
+          weight: 0.000000
+        - index: 103
+          delta: {x: 0.043757, y: 0.001249, z: 0.000000}
+          weight: 0.000000
+        - index: 104
+          delta: {x: -0.042648, y: 0.000987, z: 0.000000}
+          weight: 0.000000
+        - index: 105
+          delta: {x: 0.042959, y: 0.001663, z: 0.000000}
+          weight: 0.000000
+        - index: 106
+          delta: {x: -0.041880, y: 0.001389, z: 0.000000}
+          weight: 0.000000
+        - index: 107
+          delta: {x: 0.066402, y: -0.012780, z: 0.000000}
+          weight: 0.000000
+        - index: 108
+          delta: {x: -0.064723, y: -0.012632, z: 0.000000}
+          weight: 0.000000
+        - index: 109
+          delta: {x: 0.066149, y: -0.012618, z: 0.000000}
+          weight: 0.000000
+        - index: 110
+          delta: {x: -0.064533, y: -0.012493, z: 0.000000}
+          weight: 0.000000
+        - index: 111
+          delta: {x: 0.120351, y: -0.050017, z: 0.000000}
+          weight: 0.000000
+        - index: 112
+          delta: {x: -0.112041, y: -0.049161, z: 0.000000}
+          weight: 0.000000
+        - index: 113
+          delta: {x: 0.268549, y: -0.100603, z: 0.000000}
+          weight: 3.000000
+        - index: 114
+          delta: {x: -0.268549, y: -0.100603, z: 0.000000}
+          weight: 3.000000
+      enabled: true
 - !<Skin/1344408b-9666-4b6a-835f-1a0831f5dc7a>
   PrefabRemaps:
     []
@@ -1495,7 +1859,7 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 42859071-92df-40b2-ae8f-b48c5b32df3c
-    - !<own> 8914ff20-fca4-46fd-8958-f180c3ade1ad
+    - !<own> a8ef88a5-b502-474a-aa0e-b26de2e6aa05
   Components:
     []
 - !<SceneObject/2a8327e9-a3c0-4ffd-8133-3fb402145f19>
@@ -2207,654 +2571,6 @@
     []
   Components:
     []
-- !<ScriptComponent/444decd7-5354-43d2-bfbd-234bea8ddbf7>
-  PrefabRemaps:
-    []
-  Name: Behavior
-  Enabled: true
-  ScriptAsset: !<reference> a92b8e3e-690d-4b45-b744-161ceabc0ffc
-  ScriptInputsDefault:
-    touchEventTouchTarget: true
-    faceEventFaceIndex: true
-    onEnabledObject: true
-    onDisabledObject: true
-    interactionEventTarget: true
-    animType: true
-    animationEndAnimatedTexture: true
-    animationEndImageVisual: true
-    animationEndAnimMixer: true
-    animationEndAnimLayerName: true
-    animationEndAnimPlayer: true
-    animationEndAnimClipName: true
-    tweenEndTargetObject: true
-    tweenEndTweenName: true
-    lookingAtFlipForwardVec: true
-    lookingAtAllowRepeat: true
-    boundsCheckObject: true
-    boundsCheckBoundaryMeshVisual: true
-    boundsCheckTriggerOptions: true
-    distanceCheckObjectA: true
-    distanceCheckObjectB: true
-    distanceCheckCompareType: true
-    distanceCheckDistance: true
-    distanceCheckAllowRepeat: true
-    distanceCheckFlattenZForScreenTransforms: true
-    markerTrackingEventEventType: true
-    markerTrackingEventMarkerTracking: true
-    objectTrackingEventEventType: true
-    objectTrackingEventObjectTracking: true
-    objectTrackingEventDescStartKey: true
-    objectTrackingEventDescEndKey: true
-    objectTracking3DEventObjectTracking3D: true
-    objectTracking3DEventEventType: true
-    landmarkerEventEventType: true
-    landmarkerEventLocationTracking: true
-    machineLearningEventEventType: true
-    machineLearningEventMlComponent: true
-    recordingEventEventType: true
-    onCustomTriggerTriggerName: true
-    onCustomTriggerTriggerNames: true
-    onCustomTriggerUseList: true
-    physicsColliderEventCollider: true
-    physicsColliderEventCollisionType: true
-    physicsColliderEventEventType: true
-    physicsColliderEventOverlapStatic: true
-    physicsColliderEventOverlapDynamic: true
-    physicsColliderEventOverlapIntangible: true
-    physicsColliderEventFilterObjectsBy: true
-    physicsColliderEventAllowedObjects: true
-    physicsColliderEventNameMatchType: true
-    physicsColliderEventAllowedNames: true
-    physicsRaycastRaycastSource: true
-    physicsRaycastSourceObject: true
-    physicsRaycastFlipForwardVec: true
-    physicsRaycastCamera: true
-    physicsRaycastTapEvent: true
-    physicsRaycastTouchStartEvent: true
-    physicsRaycastTouchMoveEvent: true
-    physicsRaycastTouchEndEvent: true
-    physicsRaycastProbeType: true
-    physicsRaycastPhysicsWorld: true
-    physicsRaycastMaxDistance: true
-    physicsRaycastDebugDrawEnabled: true
-    physicsRaycastOverlapStatic: true
-    physicsRaycastOverlapDynamic: true
-    physicsRaycastOverlapIntangible: true
-    physicsRaycastFilterObjectsBy: true
-    physicsRaycastAllowedObjects: true
-    physicsRaycastNameMatchType: true
-    physicsRaycastAllowedNames: true
-    triggerLimitType: true
-    triggerInterval: true
-    triggerDelay: true
-    animateImageAnimatedTexture: true
-    animateImageVisualObject: true
-    animateImageAction: true
-    animateImageLoop: true
-    animateImagePauseFrame: true
-    animateImageAdvanced: true
-    animateImagePingPong: true
-    animateImageReverse: true
-    animateMeshAnimationPlayerAnimationPlayer: true
-    animateMeshAnimationPlayerClipName: true
-    animateMeshAnimationPlayerAction: true
-    animateMeshAnimationPlayerWeight: true
-    animateMeshAnimationPlayerPlaybackMode: true
-    animateMeshAnimationPlayerStopOtherLayers: true
-    playSoundAction: true
-    playSoundAudioTrack: true
-    playSoundAudioComponent: true
-    playSoundLoop: true
-    playSoundVolume: true
-    playSoundFadeOut: true
-    playVideoVideoTexture: true
-    playVideoVisualObject: true
-    playVideoAction: true
-    playVideoLoop: true
-    setEnabledEntityType: true
-    setEnabledTarget: true
-    setEnabledTargetComponent: true
-    setEnabledAction: true
-    setParentTarget: true
-    setParentNewParent: true
-    setParentPreserveWorldTransform: true
-    setColorVisual: true
-    setColorMaterial: true
-    setColorColor: true
-    setTextureTarget: true
-    setTextureNewTexture: true
-    setTextComponentType: true
-    setTextTextComponent: true
-    setTextText3DComponent: true
-    setTextText: true
-    runTweenAction: true
-    setPositionObjectToMove: true
-    setPositionPosition: true
-    setPositionLocalSpace: true
-    setRotationObjectToRotate: true
-    setRotationRotationAngle: true
-    setRotationLocalSpace: true
-    setScaleObjectToScale: true
-    setScaleScale: true
-    setScaleLocalSpace: true
-    setScreenPositionScreenTransform: true
-    setScreenPositionPositionType: true
-    setScreenPositionBasicPosition: true
-    setScreenPositionAnchorsCenter: true
-    setScreenPositionOffsetsCenter: true
-    setScreenRotationScreenTransform: true
-    setScreenRotationAngle: true
-    setScreenSizeScreenTransform: true
-    setScreenSizeSizeType: true
-    setScreenSizeBasicScale: true
-    setScreenSizeAnchorsSize: true
-    setScreenSizeOffsetsSize: true
-    setBlendshapesV2MeshVisual: true
-    setBlendshapesV2Name: true
-    setBlendshapesV2Weight: true
-    setMaterialParameterTargetType: true
-    setMaterialParameterMaterial: true
-    setMaterialParameterMeshVisual: true
-    setMaterialParameterVFXAsset: true
-    setMaterialParameterVFXComponent: true
-    setMaterialParameterParameterName: true
-    setMaterialParameterValueType: true
-    setMaterialParameterBoolValue: true
-    setMaterialParameterIntValue: true
-    setMaterialParameterFloatValue: true
-    setMaterialParameterColorRGBValue: true
-    setMaterialParameterColorRGBAValue: true
-    setMaterialParameterTextureValue: true
-    setMaterialParameterVec2Value: true
-    setMaterialParameterVec3Value: true
-    setMaterialParameterVec4Value: true
-    setTouchBlockingTargetType: true
-    setTouchBlockingGlobalTouchBlocking: true
-    setTouchBlockingTouchComponent: true
-    setTouchBlockingTouchTypeTouch: true
-    setTouchBlockingTouchTypeTap: true
-    setTouchBlockingTouchTypeDoubleTap: true
-    setTouchBlockingTouchTypeScale: true
-    setTouchBlockingTouchTypePan: true
-    setTouchBlockingTouchTypeSwipe: true
-    showHintHint: true
-    showHintDuration: true
-    runMLMlComponent: true
-    runMLAction: true
-    runMLSync: true
-    runMLRecurring: true
-    runMLStartTiming: true
-    runMLEndTiming: true
-    printMessageText: true
-    callScriptAPITargetType: true
-    callScriptAPISceneObject: true
-    callScriptAPIComponent: true
-    callScriptAPICallType: true
-    callScriptAPIFunctionName: true
-    callScriptAPIPropertyName: true
-    callScriptAPI_arg1ValueType: true
-    callScriptAPI_arg1BoolValue: true
-    callScriptAPI_arg1IntValue: true
-    callScriptAPI_arg1FloatValue: true
-    callScriptAPI_arg1StringValue: true
-    callScriptAPI_arg1ColorRGBValue: true
-    callScriptAPI_arg1ColorRGBAValue: true
-    callScriptAPI_arg1Vec2Value: true
-    callScriptAPI_arg1Vec3Value: true
-    callScriptAPI_arg1Vec4Value: true
-    callScriptAPI_arg1QuatValue: true
-    callScriptAPI_arg1SceneObjectValue: true
-    callScriptAPI_arg1AssetValue: true
-    callScriptAPI_arg1TextureValue: true
-    callScriptAPI_arg1ComponentValue: true
-    callScriptAPI_arg1BoolArrayValue: true
-    callScriptAPI_arg1IntArrayValue: true
-    callScriptAPI_arg1FloatArrayValue: true
-    callScriptAPI_arg1StringArrayValue: true
-    callScriptAPI_arg1Vec2ArrayValue: true
-    callScriptAPI_arg1Vec3ArrayValue: true
-    callScriptAPI_arg1Vec4ArrayValue: true
-    callScriptAPI_arg1QuatArrayValue: true
-    callScriptAPI_arg1SceneObjectArrayValue: true
-    callScriptAPI_arg1AssetArrayValue: true
-    callScriptAPI_arg1TextureArrayValue: true
-    callScriptAPI_arg1ComponentArrayValue: true
-    callScriptAPI_arg2ValueType: true
-    callScriptAPI_arg2BoolValue: true
-    callScriptAPI_arg2IntValue: true
-    callScriptAPI_arg2FloatValue: true
-    callScriptAPI_arg2StringValue: true
-    callScriptAPI_arg2ColorRGBValue: true
-    callScriptAPI_arg2ColorRGBAValue: true
-    callScriptAPI_arg2Vec2Value: true
-    callScriptAPI_arg2Vec3Value: true
-    callScriptAPI_arg2Vec4Value: true
-    callScriptAPI_arg2QuatValue: true
-    callScriptAPI_arg2SceneObjectValue: true
-    callScriptAPI_arg2AssetValue: true
-    callScriptAPI_arg2TextureValue: true
-    callScriptAPI_arg2ComponentValue: true
-    callScriptAPI_arg2BoolArrayValue: true
-    callScriptAPI_arg2IntArrayValue: true
-    callScriptAPI_arg2FloatArrayValue: true
-    callScriptAPI_arg2StringArrayValue: true
-    callScriptAPI_arg2Vec2ArrayValue: true
-    callScriptAPI_arg2Vec3ArrayValue: true
-    callScriptAPI_arg2Vec4ArrayValue: true
-    callScriptAPI_arg2QuatArrayValue: true
-    callScriptAPI_arg2SceneObjectArrayValue: true
-    callScriptAPI_arg2AssetArrayValue: true
-    callScriptAPI_arg2TextureArrayValue: true
-    callScriptAPI_arg2ComponentArrayValue: true
-    callScriptAPI_valueValueType: true
-    callScriptAPI_valueBoolValue: true
-    callScriptAPI_valueIntValue: true
-    callScriptAPI_valueFloatValue: true
-    callScriptAPI_valueStringValue: true
-    callScriptAPI_valueColorRGBValue: true
-    callScriptAPI_valueColorRGBAValue: true
-    callScriptAPI_valueVec2Value: true
-    callScriptAPI_valueVec3Value: true
-    callScriptAPI_valueVec4Value: true
-    callScriptAPI_valueQuatValue: true
-    callScriptAPI_valueSceneObjectValue: true
-    callScriptAPI_valueAssetValue: true
-    callScriptAPI_valueTextureValue: true
-    callScriptAPI_valueComponentValue: true
-    callScriptAPI_valueBoolArrayValue: true
-    callScriptAPI_valueIntArrayValue: true
-    callScriptAPI_valueFloatArrayValue: true
-    callScriptAPI_valueStringArrayValue: true
-    callScriptAPI_valueVec2ArrayValue: true
-    callScriptAPI_valueVec3ArrayValue: true
-    callScriptAPI_valueVec4ArrayValue: true
-    callScriptAPI_valueQuatArrayValue: true
-    callScriptAPI_valueSceneObjectArrayValue: true
-    callScriptAPI_valueAssetArrayValue: true
-    callScriptAPI_valueTextureArrayValue: true
-    callScriptAPI_valueComponentArrayValue: true
-    sendCustomTriggerTriggerName: true
-    sendCustomTriggerTriggerNames: true
-    sendCustomTriggerUseList: true
-    sendCustomTriggerLoopAfterEnd: true
-    physicsApplyForceBody: true
-    physicsApplyForceForceType: true
-    physicsApplyForceMode: true
-    physicsApplyForceForceValue: true
-    physicsApplyForceSpace: true
-    physicsApplyForceObjectSpace: true
-    sceneManagerLoadSceneSceneName: true
-    sceneManagerLoadSceneLoadType: true
-    sceneManagerLoadSceneLoadAdditively: true
-    sceneManagerLoadSceneLoadEnabled: true
-    sceneManagerLoadSceneCustomizeSceneRoot: true
-    sceneManagerLoadSceneSceneRootObject: true
-    sceneManagerLoadSceneUseLoadingScene: true
-    sceneManagerLoadSceneLoadingSceneName: true
-    sceneManagerLoadSceneCallbackOnProgress: true
-    sceneManagerLoadSceneOnProgressCallbackScriptComponent: true
-    sceneManagerLoadSceneOnProgressCallbackFunctionName: true
-    sceneManagerLoadSceneCallbackOnComplete: true
-    sceneManagerLoadSceneOnCompleteCallbackScriptComponent: true
-    sceneManagerLoadSceneOnCompleteCallbackFunctionName: true
-    animateMeshAnimationMixer: true
-    animateMeshLayerName: true
-    animateMeshAction: true
-    animateMeshWeight: true
-    animateMeshLoop: true
-    animateMeshStopOtherLayers: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      triggeringEventType: FaceEvent
-      touchEventEventType: TouchMoveEvent
-      touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
-      faceEventEventType: BrowsRaisedEvent
-      faceEventFaceIndex: 0
-      onEnabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      onDisabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      interactionEventEventType: onFocusEnd
-      interactionEventTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
-      animType: Animated Texture
-      animationEndAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      animationEndImageVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      animationEndAnimMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
-      animationEndAnimLayerName: ""
-      animationEndAnimPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
-      animationEndAnimClipName: ""
-      tweenEndTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      tweenEndTweenName: ""
-      lookingAtLookingObject: !<reference.SceneObject> cc35f2ec-c5eb-4568-8123-8489c7ec5da8
-      lookingAtLookTarget: !<reference.SceneObject> 617193a2-e30f-486e-830f-8aeb166fec58
-      lookingAtFlipForwardVec: true
-      lookingAtCompareType: 0
-      lookingAtAngle: !<float> 2.000000
-      lookingAtAllowRepeat: false
-      boundsCheckObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      boundsCheckBoundaryMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
-      boundsCheckTriggerOptions: On Enter
-      distanceCheckObjectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      distanceCheckObjectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      distanceCheckCompareType: -1
-      distanceCheckDistance: !<float> 1.000000
-      distanceCheckAllowRepeat: false
-      distanceCheckFlattenZForScreenTransforms: true
-      markerTrackingEventEventType: Marker Found
-      markerTrackingEventMarkerTracking: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
-      objectTrackingEventEventType: Object Found
-      objectTrackingEventObjectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
-      objectTrackingEventDescStartKey: ""
-      objectTrackingEventDescEndKey: ""
-      objectTracking3DEventObjectTracking3D: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
-      objectTracking3DEventEventType: Tracking Started
-      landmarkerEventEventType: Location Found
-      landmarkerEventLocationTracking: !<reference.DeviceLocationTrackingComponent> 00000000-0000-0000-0000-000000000000
-      machineLearningEventEventType: Loading Finished
-      machineLearningEventMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
-      recordingEventEventType: SnapRecordStartEvent
-      onCustomTriggerTriggerName: ""
-      onCustomTriggerTriggerNames: !<string[]>
-        []
-      onCustomTriggerUseList: false
-      physicsColliderEventCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      physicsColliderEventCollisionType: Collision
-      physicsColliderEventEventType: On Enter
-      physicsColliderEventOverlapStatic: true
-      physicsColliderEventOverlapDynamic: true
-      physicsColliderEventOverlapIntangible: true
-      physicsColliderEventFilterObjectsBy: None
-      physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
-        []
-      physicsColliderEventNameMatchType: Equals
-      physicsColliderEventAllowedNames: !<string[]>
-        []
-      physicsRaycastRaycastSource: touch
-      physicsRaycastSourceObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      physicsRaycastFlipForwardVec: false
-      physicsRaycastCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      physicsRaycastTapEvent: true
-      physicsRaycastTouchStartEvent: false
-      physicsRaycastTouchMoveEvent: false
-      physicsRaycastTouchEndEvent: false
-      physicsRaycastProbeType: global
-      physicsRaycastPhysicsWorld: !<reference.WorldComponent> 00000000-0000-0000-0000-000000000000
-      physicsRaycastMaxDistance: !<float> 10000.000000
-      physicsRaycastDebugDrawEnabled: false
-      physicsRaycastOverlapStatic: true
-      physicsRaycastOverlapDynamic: true
-      physicsRaycastOverlapIntangible: true
-      physicsRaycastFilterObjectsBy: None
-      physicsRaycastAllowedObjects: !<reference.ColliderComponent[]>
-        []
-      physicsRaycastNameMatchType: Equals
-      physicsRaycastAllowedNames: !<string[]>
-        []
-      triggerLimitType: Always
-      triggerInterval: !<float> 1.000000
-      triggerDelay: !<float> 0.000000
-      responseType: runTween
-      animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      animateImageAction: Play or Resume
-      animateImageLoop: false
-      animateImagePauseFrame: 0
-      animateImageAdvanced: false
-      animateImagePingPong: false
-      animateImageReverse: false
-      animateMeshAnimationPlayerAnimationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
-      animateMeshAnimationPlayerClipName: ""
-      animateMeshAnimationPlayerAction: Play or Resume
-      animateMeshAnimationPlayerWeight: !<float> 1.000000
-      animateMeshAnimationPlayerPlaybackMode: 0
-      animateMeshAnimationPlayerStopOtherLayers: true
-      playSoundAction: Play
-      playSoundAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
-      playSoundAudioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      playSoundLoop: false
-      playSoundVolume: !<float> 1.000000
-      playSoundFadeOut: false
-      playVideoVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      playVideoVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      playVideoAction: Play or Resume
-      playVideoLoop: false
-      setEnabledEntityType: SceneObject
-      setEnabledTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setEnabledTargetComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
-      setEnabledAction: Enable
-      setParentTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setParentNewParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setParentPreserveWorldTransform: false
-      setColorVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      setColorMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      setColorColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-      setTextureTarget: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      setTextureNewTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      setTextComponentType: Text
-      setTextTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      setTextText3DComponent: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
-      setTextText: ""
-      runTweenTargetObject: !<reference.SceneObject> 8907d1a7-c49f-4412-ad2c-22e1e92a82c5
-      runTweenTweenName: moveFood
-      runTweenAction: Start
-      setPositionObjectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setPositionPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setPositionLocalSpace: true
-      setRotationObjectToRotate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setRotationRotationAngle: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setRotationLocalSpace: true
-      setScaleObjectToScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      setScaleScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setScaleLocalSpace: true
-      setScreenPositionScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      setScreenPositionPositionType: Basic Position
-      setScreenPositionBasicPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setScreenPositionAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
-      setScreenPositionOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
-      setScreenRotationScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      setScreenRotationAngle: !<float> 0.000000
-      setScreenSizeScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      setScreenSizeSizeType: Basic Scale
-      setScreenSizeBasicScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setScreenSizeAnchorsSize: !<Vec2> {x: 0.000000, y: 0.000000}
-      setScreenSizeOffsetsSize: !<Vec2> {x: 0.000000, y: 0.000000}
-      setBlendshapesV2MeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
-      setBlendshapesV2Name: ""
-      setBlendshapesV2Weight: !<float> 0.000000
-      setMaterialParameterTargetType: Material
-      setMaterialParameterMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      setMaterialParameterMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
-      setMaterialParameterVFXAsset: !<reference.VFXAsset> 00000000-0000-0000-0000-000000000000
-      setMaterialParameterVFXComponent: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
-      setMaterialParameterParameterName: ""
-      setMaterialParameterValueType: float
-      setMaterialParameterBoolValue: false
-      setMaterialParameterIntValue: 0
-      setMaterialParameterFloatValue: !<float> 0.000000
-      setMaterialParameterColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setMaterialParameterColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      setMaterialParameterTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      setMaterialParameterVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
-      setMaterialParameterVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      setMaterialParameterVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      setTouchBlockingTargetType: Global Touches
-      setTouchBlockingGlobalTouchBlocking: true
-      setTouchBlockingTouchComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
-      setTouchBlockingTouchTypeTouch: false
-      setTouchBlockingTouchTypeTap: false
-      setTouchBlockingTouchTypeDoubleTap: false
-      setTouchBlockingTouchTypeScale: false
-      setTouchBlockingTouchTypePan: false
-      setTouchBlockingTouchTypeSwipe: false
-      showHintHint: 0
-      showHintDuration: !<float> 2.000000
-      runMLMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
-      runMLAction: Run Immediate
-      runMLSync: false
-      runMLRecurring: false
-      runMLStartTiming: 2
-      runMLEndTiming: 4
-      instantiatePrefabPrefab: !<reference.ObjectPrefab> 88c45a0f-be7d-42e6-8fd8-c8a9bc5b059a
-      instantiatePrefabParent: !<reference.SceneObject> ac5b96a7-cab2-4acd-8d45-131321fec474
-      destroyObjectObject: !<reference.SceneObject> 617193a2-e30f-486e-830f-8aeb166fec58
-      printMessageText: ""
-      callScriptAPITargetType: Component
-      callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      callScriptAPIComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
-      callScriptAPICallType: 0
-      callScriptAPIFunctionName: ""
-      callScriptAPIPropertyName: ""
-      callScriptAPI_arg1ValueType: None
-      callScriptAPI_arg1BoolValue: false
-      callScriptAPI_arg1IntValue: 0
-      callScriptAPI_arg1FloatValue: !<float> 0.000000
-      callScriptAPI_arg1StringValue: ""
-      callScriptAPI_arg1ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_arg1ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_arg1Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
-      callScriptAPI_arg1Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_arg1Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_arg1QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
-      callScriptAPI_arg1SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg1AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg1TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg1ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg1BoolArrayValue: !<bool[]>
-        []
-      callScriptAPI_arg1IntArrayValue: !<int[]>
-        []
-      callScriptAPI_arg1FloatArrayValue: !<float[]>
-        []
-      callScriptAPI_arg1StringArrayValue: !<string[]>
-        []
-      callScriptAPI_arg1Vec2ArrayValue: !<Vec2[]>
-        []
-      callScriptAPI_arg1Vec3ArrayValue: !<Vec3[]>
-        []
-      callScriptAPI_arg1Vec4ArrayValue: !<Vec4[]>
-        []
-      callScriptAPI_arg1QuatArrayValue: !<Quat[]>
-        []
-      callScriptAPI_arg1SceneObjectArrayValue: !<reference.SceneObject[]>
-        []
-      callScriptAPI_arg1AssetArrayValue: !<reference.Asset[]>
-        []
-      callScriptAPI_arg1TextureArrayValue: !<reference.Texture[]>
-        []
-      callScriptAPI_arg1ComponentArrayValue: !<reference.Component[]>
-        []
-      callScriptAPI_arg2ValueType: None
-      callScriptAPI_arg2BoolValue: false
-      callScriptAPI_arg2IntValue: 0
-      callScriptAPI_arg2FloatValue: !<float> 0.000000
-      callScriptAPI_arg2StringValue: ""
-      callScriptAPI_arg2ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_arg2ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_arg2Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
-      callScriptAPI_arg2Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_arg2Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_arg2QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
-      callScriptAPI_arg2SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg2AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg2TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg2ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_arg2BoolArrayValue: !<bool[]>
-        []
-      callScriptAPI_arg2IntArrayValue: !<int[]>
-        []
-      callScriptAPI_arg2FloatArrayValue: !<float[]>
-        []
-      callScriptAPI_arg2StringArrayValue: !<string[]>
-        []
-      callScriptAPI_arg2Vec2ArrayValue: !<Vec2[]>
-        []
-      callScriptAPI_arg2Vec3ArrayValue: !<Vec3[]>
-        []
-      callScriptAPI_arg2Vec4ArrayValue: !<Vec4[]>
-        []
-      callScriptAPI_arg2QuatArrayValue: !<Quat[]>
-        []
-      callScriptAPI_arg2SceneObjectArrayValue: !<reference.SceneObject[]>
-        []
-      callScriptAPI_arg2AssetArrayValue: !<reference.Asset[]>
-        []
-      callScriptAPI_arg2TextureArrayValue: !<reference.Texture[]>
-        []
-      callScriptAPI_arg2ComponentArrayValue: !<reference.Component[]>
-        []
-      callScriptAPI_valueValueType: float
-      callScriptAPI_valueBoolValue: false
-      callScriptAPI_valueIntValue: 0
-      callScriptAPI_valueFloatValue: !<float> 0.000000
-      callScriptAPI_valueStringValue: ""
-      callScriptAPI_valueColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_valueColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_valueVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
-      callScriptAPI_valueVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      callScriptAPI_valueVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      callScriptAPI_valueQuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
-      callScriptAPI_valueSceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_valueAssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_valueTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_valueComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
-      callScriptAPI_valueBoolArrayValue: !<bool[]>
-        []
-      callScriptAPI_valueIntArrayValue: !<int[]>
-        []
-      callScriptAPI_valueFloatArrayValue: !<float[]>
-        []
-      callScriptAPI_valueStringArrayValue: !<string[]>
-        []
-      callScriptAPI_valueVec2ArrayValue: !<Vec2[]>
-        []
-      callScriptAPI_valueVec3ArrayValue: !<Vec3[]>
-        []
-      callScriptAPI_valueVec4ArrayValue: !<Vec4[]>
-        []
-      callScriptAPI_valueQuatArrayValue: !<Quat[]>
-        []
-      callScriptAPI_valueSceneObjectArrayValue: !<reference.SceneObject[]>
-        []
-      callScriptAPI_valueAssetArrayValue: !<reference.Asset[]>
-        []
-      callScriptAPI_valueTextureArrayValue: !<reference.Texture[]>
-        []
-      callScriptAPI_valueComponentArrayValue: !<reference.Component[]>
-        []
-      sendCustomTriggerTriggerName: ""
-      sendCustomTriggerTriggerNames: !<string[]>
-        []
-      sendCustomTriggerUseList: false
-      sendCustomTriggerLoopAfterEnd: true
-      physicsApplyForceBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
-      physicsApplyForceForceType: Position
-      physicsApplyForceMode: Impulse
-      physicsApplyForceForceValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      physicsApplyForceSpace: World
-      physicsApplyForceObjectSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      sceneManagerLoadSceneSceneName: ""
-      sceneManagerLoadSceneLoadType: Asynchronous
-      sceneManagerLoadSceneLoadAdditively: true
-      sceneManagerLoadSceneLoadEnabled: true
-      sceneManagerLoadSceneCustomizeSceneRoot: false
-      sceneManagerLoadSceneSceneRootObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      sceneManagerLoadSceneUseLoadingScene: false
-      sceneManagerLoadSceneLoadingSceneName: ""
-      sceneManagerLoadSceneCallbackOnProgress: false
-      sceneManagerLoadSceneOnProgressCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      sceneManagerLoadSceneOnProgressCallbackFunctionName: ""
-      sceneManagerLoadSceneCallbackOnComplete: false
-      sceneManagerLoadSceneOnCompleteCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      sceneManagerLoadSceneOnCompleteCallbackFunctionName: ""
-      animateMeshAnimationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
-      animateMeshLayerName: ""
-      animateMeshAction: Play or Resume
-      animateMeshWeight: !<float> 1.000000
-      animateMeshLoop: false
-      animateMeshStopOtherLayers: true
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/452ce553-ab4d-4c5e-bfb9-252e8fc76212>
   PrefabRemaps:
     []
@@ -3709,7 +3425,7 @@
       spawnInterval: !<float> 2.000000
       fallSpeed: !<float> 10.000000
       headBinding: !<reference.SceneObject> 42859071-92df-40b2-ae8f-b48c5b32df3c
-      faceStretch: !<reference.FaceStretchVisual> cb278066-51ce-45ee-9e41-01359b20b61b
+      faceStretch: !<reference.FaceStretchVisual> 1263f12a-c8eb-4e37-b14e-fd3d2840d161
       eatDistance: !<float> 7.000000
   ScriptTypes:
     "":
@@ -4305,21 +4021,6 @@
     - !<own> 94f06b39-bcbb-450e-ac4b-fd192b16271a
   Components:
     []
-- !<SceneObject/8914ff20-fca4-46fd-8958-f180c3ade1ad>
-  PrefabRemaps:
-    []
-  Name: Face Stretch
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> cb278066-51ce-45ee-9e41-01359b20b61b
 - !<ScriptComponent/892a0f68-9734-4dfd-9394-659e2bcf1f46>
   PrefabRemaps:
     []
@@ -4897,6 +4598,21 @@
       - 0.000000
       - 0.000000
   TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/a8ef88a5-b502-474a-aa0e-b26de2e6aa05>
+  PrefabRemaps:
+    []
+  Name: Face Stretch
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1263f12a-c8eb-4e37-b14e-fd3d2840d161
 - !<SceneObject/a94af11f-6746-4946-9833-80d97c53f739>
   PrefabRemaps:
     []
@@ -5017,7 +4733,6 @@
     - !<own> c0b9f040-6bb9-4393-984c-5fdcc866bcbc
     - !<own> e299fda7-a10e-4b15-9c0c-ec87aed6a112
     - !<own> 4b265a23-4671-442b-aae7-f17db894aa49
-    - !<own> fb0a1baa-0d30-4188-8f49-bf479ba75b8e
   Components:
     []
 - !<SceneObject/ac8462f0-fac7-403c-aaee-22157a5bcce6>
@@ -7771,370 +7486,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<FaceStretchVisual/cb278066-51ce-45ee-9e41-01359b20b61b>
-  PrefabRemaps:
-    []
-  Name: Face Stretch
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  FaceIndex: 0
-  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
-  Features:
-    - name: Feature 0
-      weight: 0.000000
-      points:
-        - index: 0
-          delta: {x: -0.000005, y: -0.000075, z: 0.000000}
-          weight: 0.000000
-        - index: 1
-          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
-          weight: 3.000000
-        - index: 2
-          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
-          weight: 3.000000
-        - index: 3
-          delta: {x: 0.000667, y: -0.000694, z: 0.000000}
-          weight: 0.000000
-        - index: 4
-          delta: {x: 0.000965, y: -0.001615, z: 0.000000}
-          weight: 0.000000
-        - index: 5
-          delta: {x: 0.004288, y: -0.012001, z: 0.000000}
-          weight: 0.000000
-        - index: 6
-          delta: {x: 0.003415, y: -0.010116, z: 0.000000}
-          weight: 0.000000
-        - index: 7
-          delta: {x: 0.002503, y: -0.005611, z: 0.000000}
-          weight: 0.000000
-        - index: 8
-          delta: {x: 0.001266, y: -0.001453, z: 0.000000}
-          weight: 0.000000
-        - index: 9
-          delta: {x: 0.000756, y: -0.000453, z: 0.000000}
-          weight: 0.000000
-        - index: 10
-          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
-          weight: 3.000000
-        - index: 11
-          delta: {x: -0.002150, y: 0.000609, z: 0.000000}
-          weight: 0.000000
-        - index: 12
-          delta: {x: -0.005820, y: 0.015072, z: 0.000000}
-          weight: 0.000000
-        - index: 13
-          delta: {x: 0.008103, y: 0.022450, z: 0.000000}
-          weight: 0.000000
-        - index: 14
-          delta: {x: 0.021315, y: 0.053713, z: 0.000000}
-          weight: 0.000000
-        - index: 15
-          delta: {x: 0.073251, y: 0.036616, z: 0.000000}
-          weight: 0.000000
-        - index: 16
-          delta: {x: 0.033669, y: 0.033314, z: 0.000000}
-          weight: 0.000000
-        - index: 17
-          delta: {x: 0.013555, y: 0.008181, z: 0.000000}
-          weight: 0.000000
-        - index: 18
-          delta: {x: 0.044210, y: 0.033743, z: 0.000000}
-          weight: 0.000000
-        - index: 19
-          delta: {x: 0.056093, y: 0.018699, z: 0.000000}
-          weight: 0.000000
-        - index: 20
-          delta: {x: 0.110609, y: 0.007830, z: 0.000000}
-          weight: 0.000000
-        - index: 21
-          delta: {x: 0.052108, y: 0.019785, z: 0.000000}
-          weight: 0.000000
-        - index: 22
-          delta: {x: 0.090770, y: 0.004205, z: 0.000000}
-          weight: 0.000000
-        - index: 23
-          delta: {x: 0.038395, y: 0.006864, z: 0.000000}
-          weight: 0.000000
-        - index: 24
-          delta: {x: 0.093728, y: 0.002757, z: 0.000000}
-          weight: 0.000000
-        - index: 25
-          delta: {x: 0.097076, y: -0.016717, z: 0.000000}
-          weight: 0.000000
-        - index: 26
-          delta: {x: 0.162475, y: -0.016013, z: 0.000000}
-          weight: 0.000000
-        - index: 27
-          delta: {x: 0.212615, y: -0.035248, z: 0.000000}
-          weight: 0.000000
-        - index: 28
-          delta: {x: 0.236687, y: -0.023051, z: 0.000000}
-          weight: 0.000000
-        - index: 29
-          delta: {x: 0.129013, y: 0.019770, z: 0.000000}
-          weight: 0.000000
-        - index: 30
-          delta: {x: 0.227763, y: -0.016563, z: 0.000000}
-          weight: 0.000000
-        - index: 31
-          delta: {x: 0.164704, y: -0.005872, z: 0.000000}
-          weight: 0.000000
-        - index: 32
-          delta: {x: 0.007217, y: -0.022226, z: 0.000000}
-          weight: 0.000000
-        - index: 33
-          delta: {x: 0.028104, y: -0.006723, z: 0.000000}
-          weight: 0.000000
-        - index: 34
-          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
-          weight: 3.000000
-        - index: 35
-          delta: {x: 0.000001, y: 0.000000, z: 0.000000}
-          weight: 0.000000
-        - index: 36
-          delta: {x: 0.000470, y: -0.000341, z: 0.000000}
-          weight: 0.000000
-        - index: 37
-          delta: {x: 0.000719, y: -0.000881, z: 0.000000}
-          weight: 0.000000
-        - index: 38
-          delta: {x: 0.004296, y: -0.011871, z: 0.000000}
-          weight: 0.000000
-        - index: 39
-          delta: {x: 0.003647, y: -0.011375, z: 0.000000}
-          weight: 0.000000
-        - index: 40
-          delta: {x: 0.001729, y: -0.003103, z: 0.000000}
-          weight: 0.000000
-        - index: 41
-          delta: {x: 0.001431, y: -0.001918, z: 0.000000}
-          weight: 0.000000
-        - index: 42
-          delta: {x: 0.000902, y: -0.000771, z: 0.000000}
-          weight: 0.000000
-        - index: 43
-          delta: {x: -0.000019, y: 0.000000, z: 0.000000}
-          weight: 0.000000
-        - index: 44
-          delta: {x: 0.002178, y: 0.000670, z: 0.000000}
-          weight: 0.000000
-        - index: 45
-          delta: {x: 0.005845, y: 0.015448, z: 0.000000}
-          weight: 0.000000
-        - index: 46
-          delta: {x: -0.008127, y: 0.022461, z: 0.000000}
-          weight: 0.000000
-        - index: 47
-          delta: {x: -0.021767, y: 0.053817, z: 0.000000}
-          weight: 0.000000
-        - index: 48
-          delta: {x: -0.071765, y: 0.036550, z: 0.000000}
-          weight: 0.000000
-        - index: 49
-          delta: {x: -0.032101, y: 0.033879, z: 0.000000}
-          weight: 0.000000
-        - index: 50
-          delta: {x: -0.012913, y: 0.008701, z: 0.000000}
-          weight: 0.000000
-        - index: 51
-          delta: {x: -0.042193, y: 0.034562, z: 0.000000}
-          weight: 0.000000
-        - index: 52
-          delta: {x: -0.055257, y: 0.018298, z: 0.000000}
-          weight: 0.000000
-        - index: 53
-          delta: {x: -0.110836, y: 0.007203, z: 0.000000}
-          weight: 0.000000
-        - index: 54
-          delta: {x: -0.049974, y: 0.019674, z: 0.000000}
-          weight: 0.000000
-        - index: 55
-          delta: {x: -0.089436, y: 0.004192, z: 0.000000}
-          weight: 0.000000
-        - index: 56
-          delta: {x: -0.036860, y: 0.006601, z: 0.000000}
-          weight: 0.000000
-        - index: 57
-          delta: {x: -0.092335, y: 0.002783, z: 0.000000}
-          weight: 0.000000
-        - index: 58
-          delta: {x: -0.090711, y: -0.016158, z: 0.000000}
-          weight: 0.000000
-        - index: 59
-          delta: {x: -0.156469, y: -0.015839, z: 0.000000}
-          weight: 0.000000
-        - index: 60
-          delta: {x: -0.212382, y: -0.035440, z: 0.000000}
-          weight: 0.000000
-        - index: 61
-          delta: {x: -0.236850, y: -0.023207, z: 0.000000}
-          weight: 0.000000
-        - index: 62
-          delta: {x: -0.130444, y: 0.018723, z: 0.000000}
-          weight: 0.000000
-        - index: 63
-          delta: {x: -0.228366, y: -0.016840, z: 0.000000}
-          weight: 0.000000
-        - index: 64
-          delta: {x: -0.157989, y: -0.006657, z: 0.000000}
-          weight: 0.000000
-        - index: 65
-          delta: {x: -0.007034, y: -0.021638, z: 0.000000}
-          weight: 0.000000
-        - index: 66
-          delta: {x: -0.022559, y: -0.006646, z: 0.000000}
-          weight: 0.000000
-        - index: 67
-          delta: {x: 0.068412, y: 0.019346, z: 0.000000}
-          weight: 0.000000
-        - index: 68
-          delta: {x: 0.107512, y: 0.000683, z: 0.000000}
-          weight: 0.000000
-        - index: 69
-          delta: {x: -0.066564, y: 0.019427, z: 0.000000}
-          weight: 0.000000
-        - index: 70
-          delta: {x: -0.106656, y: 0.000556, z: 0.000000}
-          weight: 0.000000
-        - index: 71
-          delta: {x: 0.047087, y: 0.016580, z: 0.000000}
-          weight: 0.000000
-        - index: 72
-          delta: {x: 0.077669, y: 0.005558, z: 0.000000}
-          weight: 0.000000
-        - index: 73
-          delta: {x: -0.045306, y: 0.016405, z: 0.000000}
-          weight: 0.000000
-        - index: 74
-          delta: {x: -0.076271, y: 0.005541, z: 0.000000}
-          weight: 0.000000
-        - index: 75
-          delta: {x: 0.072045, y: -0.014600, z: 0.000000}
-          weight: 0.000000
-        - index: 76
-          delta: {x: -0.064006, y: -0.014089, z: 0.000000}
-          weight: 0.000000
-        - index: 77
-          delta: {x: 0.005582, y: -0.001317, z: 0.000000}
-          weight: 0.000000
-        - index: 78
-          delta: {x: -0.003759, y: -0.001396, z: 0.000000}
-          weight: 0.000000
-        - index: 79
-          delta: {x: 0.076194, y: -0.008748, z: 0.000000}
-          weight: 0.000000
-        - index: 80
-          delta: {x: -0.069824, y: -0.008976, z: 0.000000}
-          weight: 0.000000
-        - index: 81
-          delta: {x: 0.046258, y: -0.008175, z: 0.000000}
-          weight: 0.000000
-        - index: 82
-          delta: {x: -0.041704, y: -0.008056, z: 0.000000}
-          weight: 0.000000
-        - index: 83
-          delta: {x: 0.043443, y: -0.008237, z: 0.000000}
-          weight: 0.000000
-        - index: 84
-          delta: {x: -0.039396, y: -0.008071, z: 0.000000}
-          weight: 0.000000
-        - index: 85
-          delta: {x: 0.045402, y: -0.011078, z: 0.000000}
-          weight: 0.000000
-        - index: 86
-          delta: {x: -0.041624, y: -0.010783, z: 0.000000}
-          weight: 0.000000
-        - index: 87
-          delta: {x: 0.001906, y: -0.003629, z: 0.000000}
-          weight: 0.000000
-        - index: 88
-          delta: {x: 0.120019, y: -0.008651, z: 0.000000}
-          weight: 0.000000
-        - index: 89
-          delta: {x: -0.113670, y: -0.009369, z: 0.000000}
-          weight: 0.000000
-        - index: 90
-          delta: {x: 0.230835, y: -0.011662, z: 0.000000}
-          weight: 0.000000
-        - index: 91
-          delta: {x: -0.229989, y: -0.011434, z: 0.000000}
-          weight: 0.000000
-        - index: 92
-          delta: {x: 0.036331, y: -0.008095, z: 0.000000}
-          weight: 0.000000
-        - index: 93
-          delta: {x: -0.032134, y: -0.007812, z: 0.000000}
-          weight: 0.000000
-        - index: 94
-          delta: {x: 0.002015, y: -0.006093, z: 0.000000}
-          weight: 0.000000
-        - index: 95
-          delta: {x: 0.077590, y: 0.017583, z: 0.000000}
-          weight: 0.000000
-        - index: 96
-          delta: {x: -0.077201, y: 0.017154, z: 0.000000}
-          weight: 0.000000
-        - index: 97
-          delta: {x: 0.076468, y: 0.018081, z: 0.000000}
-          weight: 0.000000
-        - index: 98
-          delta: {x: -0.076093, y: 0.017648, z: 0.000000}
-          weight: 0.000000
-        - index: 99
-          delta: {x: 0.107347, y: 0.002815, z: 0.000000}
-          weight: 0.000000
-        - index: 100
-          delta: {x: -0.106835, y: 0.002545, z: 0.000000}
-          weight: 0.000000
-        - index: 101
-          delta: {x: 0.107050, y: 0.002962, z: 0.000000}
-          weight: 0.000000
-        - index: 102
-          delta: {x: -0.106586, y: 0.002682, z: 0.000000}
-          weight: 0.000000
-        - index: 103
-          delta: {x: 0.044416, y: 0.013917, z: 0.000000}
-          weight: 0.000000
-        - index: 104
-          delta: {x: -0.043377, y: 0.013559, z: 0.000000}
-          weight: 0.000000
-        - index: 105
-          delta: {x: 0.043677, y: 0.014071, z: 0.000000}
-          weight: 0.000000
-        - index: 106
-          delta: {x: -0.042664, y: 0.013709, z: 0.000000}
-          weight: 0.000000
-        - index: 107
-          delta: {x: 0.064739, y: 0.007370, z: 0.000000}
-          weight: 0.000000
-        - index: 108
-          delta: {x: -0.063214, y: 0.007283, z: 0.000000}
-          weight: 0.000000
-        - index: 109
-          delta: {x: 0.064517, y: 0.007449, z: 0.000000}
-          weight: 0.000000
-        - index: 110
-          delta: {x: -0.063048, y: 0.007358, z: 0.000000}
-          weight: 0.000000
-        - index: 111
-          delta: {x: 0.108190, y: -0.011872, z: 0.000000}
-          weight: 0.000000
-        - index: 112
-          delta: {x: -0.100617, y: -0.011912, z: 0.000000}
-          weight: 0.000000
-        - index: 113
-          delta: {x: 0.247054, y: -0.027088, z: 0.000000}
-          weight: 3.000000
-        - index: 114
-          delta: {x: -0.247054, y: -0.027088, z: 0.000000}
-          weight: 3.000000
-      enabled: true
 - !<SceneObject/cbf8cb9f-81b7-43d9-99a6-d1016a73c882>
   PrefabRemaps:
     []
@@ -9078,21 +8429,6 @@
     - !<own> 081c4967-43e0-4c5e-bb2b-c4ad73c1fb46
   Components:
     []
-- !<SceneObject/fb0a1baa-0d30-4188-8f49-bf479ba75b8e>
-  PrefabRemaps:
-    []
-  Name: Move cube
-  Enabled: false
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 444decd7-5354-43d2-bfbd-234bea8ddbf7
 - !<SceneObject/fdbce388-9d91-4390-b454-37b4eec987c3>
   PrefabRemaps:
     []

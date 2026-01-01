@@ -4,7 +4,8 @@
 // @input float fallSpeed = 10.0
 // @input SceneObject headBinding //Head Binding here
 // @input Component.FaceStretchVisual faceStretch // Face Stretch here
-// @input float eatDistance = 2.0 // Distance threshold for eating
+// @input float eatDistance = 7.0 // Distance threshold for eating
+// @input Asset.ObjectPrefab particlePrefab
 
 var timer = 0;
 var isMouthOpen = false;
@@ -33,7 +34,7 @@ function spawnFood() {
     newFood.getTransform().setLocalPosition(new vec3(randomX, 30, 0));
 
     // 5. Add a "Type" property so we know what it is when we eat it
-    newFood.foodType = isVeggie ? "healthy" : "unhealthy";
+    newFood.isHealthy = isVeggie;
 }
 
 script.createEvent("UpdateEvent").bind(function() {
@@ -70,15 +71,36 @@ script.createEvent("UpdateEvent").bind(function() {
     }
 });
 function handleEat(healthy) {
-    // FIX: Using feature0Weight is more reliable than getFeatureWeight(0)
-    var currentWeight = script.faceStretch.feature0Weight;
-    var changeAmount = 0.2; 
+    if (!script.faceStretch) return;
 
-    if (healthy) {
-        script.faceStretch.feature0Weight = Math.max(0, currentWeight - changeAmount);
-        print("Ate Veggie! Weight: " + script.faceStretch.feature0Weight);
+    // We pass the string name "Feature 0" instead of the number 0
+    var featureName = "Feature 0"; 
+    
+    var currentWeight = script.faceStretch.getFeatureWeight(featureName);
+
+    // Safety check in case the name is slightly different
+    if (currentWeight == null || isNaN(currentWeight)) {
+        print("ERROR: Could not find feature named '" + featureName + "'. Check your Face Stretch Inspector!");
+        currentWeight = 0;
+    }
+
+    var changeAmount = 0.2;
+    var newWeight;
+
+    if (healthy === true) {
+        newWeight = Math.max(0, currentWeight - changeAmount);
+        print("Healthy! New Weight: " + newWeight.toFixed(2));
     } else {
-        script.faceStretch.feature0Weight = Math.min(1, currentWeight + changeAmount);
-        print("Ate Junk! Weight: " + script.faceStretch.feature0Weight);
+        newWeight = Math.min(1, currentWeight + changeAmount);
+        print("Junk! New Weight: " + newWeight.toFixed(2));
+    }
+
+    // Apply using the string name
+    script.faceStretch.setFeatureWeight(featureName, newWeight);
+
+    // Particles
+    if (script.particlePrefab) {
+        var splash = script.particlePrefab.instantiate(script.getSceneObject());
+        splash.getTransform().setWorldPosition(script.headBinding.getTransform().getWorldPosition());
     }
 }

@@ -6,6 +6,7 @@
 // @input Component.FaceStretchVisual faceStretch // Face Stretch here
 // @input float eatDistance = 7.0 // Distance threshold for eating
 // @input Asset.ObjectPrefab particlePrefab
+// @input Component.AudioComponent audio
 
 var timer = 0;
 var isMouthOpen = false;
@@ -63,6 +64,7 @@ script.createEvent("UpdateEvent").bind(function() {
         if (dist < script.eatDistance && isMouthOpen) {
             handleEat(child.isHealthy);
             child.destroy();
+            script.audio.play(1);
             continue; 
         }
 

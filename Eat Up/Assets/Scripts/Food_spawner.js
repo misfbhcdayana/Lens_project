@@ -7,6 +7,9 @@
 // @input float eatDistance = 7.0 // Distance threshold for eating
 // @input Asset.ObjectPrefab particlePrefab
 // @input Component.AudioComponent audio
+// @input Component.Image imageComponent
+// @input Asset.Texture OrangeBar
+// @input Asset.Texture GreenBar
 
 var timer = 0;
 var isMouthOpen = false;
@@ -89,12 +92,15 @@ function handleEat(healthy) {
     var changeAmount = 0.2;
     var newWeight;
 
+    //Healthy or junk.
     if (healthy === true) {
         newWeight = Math.max(0, currentWeight - changeAmount);
         print("Healthy! New Weight: " + newWeight.toFixed(2));
+        script.imageComponent.mainPass.baseTex = script.GreenBar;
     } else {
         newWeight = Math.min(1, currentWeight + changeAmount);
         print("Junk! New Weight: " + newWeight.toFixed(2));
+        script.imageComponent.mainPass.baseTex = script.OrangeBar;
     }
 
     // Apply using the string name

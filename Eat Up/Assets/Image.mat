@@ -1,8 +1,16 @@
+<<<<<<< LOCAL
 - !<Material/c0d97e8f-0ef2-4298-aaf1-e55cff28c9f5>
   PackagePath: ""
   PassesInfo:
     - !<own> e03c2dc5-dd76-40e2-899c-3ed095d967b8
 - !<PassInfo/e03c2dc5-dd76-40e2-899c-3ed095d967b8>
+=======
+- !<Material/72cd0119-174d-4475-9e94-3fd82683f2eb>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 5a3f733e-3eb6-4727-b1db-9a183b369343
+- !<PassInfo/5a3f733e-3eb6-4727-b1db-9a183b369343>
+>>>>>>> REMOTE
   CachedProperties:
     - Port_Default_N369:
         typeIdx: 5
@@ -37,7 +45,11 @@
     baseTex:
       typeIdx: 9
       value:
+<<<<<<< LOCAL
         id: 08398d77-5cfb-428d-907e-033797edbdaa
+=======
+        id: 73bacef0-75a1-4cfc-95bc-adb8a394366d
+>>>>>>> REMOTE
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge
@@ -46,4 +58,8 @@
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false
         type: Texture2D
+<<<<<<< LOCAL
   Pass: !<reference> 210734cd-daf9-48e5-abb7-9a30179d0978
+=======
+  Pass: !<reference> 583c93a4-4c5e-4224-a4bd-8c7c2fcb36d1
+>>>>>>> REMOTE

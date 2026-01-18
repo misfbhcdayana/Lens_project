@@ -1,8 +1,16 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/e1e53b49-e936-4f6b-8083-bac0ce1509b4>
   ImportedAssetIds:
     Material: !<reference> c0d97e8f-0ef2-4298-aaf1-e55cff28c9f5
   ImporterName: MaterialImporter
   PrimaryAsset: !<reference> c0d97e8f-0ef2-4298-aaf1-e55cff28c9f5
+=======
+- !<AssetImportMetadata/4713098e-e73c-4740-98a2-d98d416f59c6>
+  ImportedAssetIds:
+    Material: !<reference> 72cd0119-174d-4475-9e94-3fd82683f2eb
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 72cd0119-174d-4475-9e94-3fd82683f2eb
+>>>>>>> REMOTE
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

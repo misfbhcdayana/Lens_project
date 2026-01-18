@@ -7,6 +7,7 @@
 // @input float eatDistance = 7.0 // Distance threshold for eating
 // @input Asset.ObjectPrefab particlePrefab
 // @input Component.AudioComponent audio
+// @input Component.Image healthFillImage
 
 var timer = 0;
 var isMouthOpen = false;
@@ -86,7 +87,7 @@ function handleEat(healthy) {
         currentWeight = 0;
     }
 
-    var changeAmount = 0.2;
+    var changeAmount = 0.1;
     var newWeight;
 
     if (healthy === true) {
@@ -100,9 +101,40 @@ function handleEat(healthy) {
     // Apply using the string name
     script.faceStretch.setFeatureWeight(featureName, newWeight);
 
+    // Update the Health Bar
+    updateHealthBar(newWeight);
+
     // Particles
     if (script.particlePrefab) {
         var splash = script.particlePrefab.instantiate(script.getSceneObject());
         splash.getTransform().setWorldPosition(script.headBinding.getTransform().getWorldPosition());
     }
+}
+
+function updateHealthBar(weight) {
+    if (!script.healthFillImage) return;
+
+    // Calculate Health (Inverse of Weight)
+    var health = 1.0 - weight;
+
+    // Update Scale (X scale = health percentage)
+    var fillTransform = script.healthFillImage.getSceneObject().getTransform();
+    var currentScale = fillTransform.getLocalScale();
+    fillTransform.setLocalScale(new vec3(health, currentScale.y, currentScale.z));
+
+    // Handle Color Transitions
+    var barColor;
+    if (health <= 0.2) {
+        // Danger: Red/Dark Orange
+        barColor = new vec4(1, 0.2, 0, 1);
+    } else if (health <= 0.5) {
+        // Warning: Orange
+        barColor = new vec4(1, 0.6, 0, 1);
+    } else {
+        // Safe: Green
+        barColor = new vec4(0.2, 1, 0.4, 1);
+    }
+
+    // Apply color to the image
+    script.healthFillImage.mainPass.baseColor = barColor;
 }

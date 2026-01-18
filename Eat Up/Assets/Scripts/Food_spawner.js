@@ -7,13 +7,7 @@
 // @input float eatDistance = 7.0 // Distance threshold for eating
 // @input Asset.ObjectPrefab particlePrefab
 // @input Component.AudioComponent audio
-<<<<<<< HEAD
 // @input Component.Image healthFillImage
-=======
-// @input Component.Image imageComponent
-// @input Asset.Texture OrangeBar
-// @input Asset.Texture GreenBar
->>>>>>> 9e75cd7bce64fbb52e780a3164d123ac3e4c6dc7
 
 var timer = 0;
 var isMouthOpen = false;

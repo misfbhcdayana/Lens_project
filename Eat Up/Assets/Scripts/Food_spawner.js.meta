@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/90b139bb-9889-4fbc-a6af-d10f02529c74>
+- !<AssetImportMetadata/efda8690-954b-4f01-a5bd-a184e8fba08e>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 2084a8a9-b16d-4843-91ed-d158c3fb04bc
+    JavaScriptAsset: !<reference> 546ecd7e-858c-4627-8cb3-4640cd8d0219
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 2084a8a9-b16d-4843-91ed-d158c3fb04bc
+  PrimaryAsset: !<reference> 546ecd7e-858c-4627-8cb3-4640cd8d0219
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     {}
   AssetDataMap:
-    JavaScriptAsset: !<own> 4b85447d-f42f-48cb-b855-7eca13bde084
+    JavaScriptAsset: !<own> 8e8c0eb7-0150-4ae9-93ce-cb5736f0ce2d
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/4b85447d-f42f-48cb-b855-7eca13bde084>
+- !<ScriptAssetData/8e8c0eb7-0150-4ae9-93ce-cb5736f0ce2d>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,23 +22,17 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 9b1eb2fa-1479-47b9-a415-03cda6590267
+  ComponentUid: ae139cf1-5be2-46fd-a1ae-35455947f32e
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    GreenBar: false
-    OrangeBar: false
     audio: false
     eatDistance: false
     faceStretch: false
     fallSpeed: false
     fastFoodPrefabs: false
     headBinding: false
-<<<<<<< LOCAL
     healthFillImage: false
-=======
-    imageComponent: false
->>>>>>> REMOTE
     particlePrefab: false
     spawnInterval: false
     veggiePrefabs: false
@@ -59,16 +53,10 @@
       fallSpeed: !<float> 10.000000
       headBinding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       faceStretch: !<reference.FaceStretchVisual> 00000000-0000-0000-0000-000000000000
-      eatDistance: !<float> 2.000000
+      eatDistance: !<float> 7.000000
       particlePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-<<<<<<< LOCAL
       healthFillImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
-=======
-      imageComponent: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      OrangeBar: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      GreenBar: !<reference.Texture> 00000000-0000-0000-0000-000000000000
->>>>>>> REMOTE
   ScriptTypes:
     -
       {}
